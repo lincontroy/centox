@@ -1,0 +1,1234 @@
+<!DOCTYPE html><html lang="en"><head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+	<meta name="description" content="html 5 template, dentist, stomatologist, dental clinic template, medical template, clinic template, surgery clinic theme, plastic surgery template">
+	<meta name="author" content="websmirno.site">
+	<meta name="format-detection" content="telephone=no">
+	<title>Medin - HTML Website Template</title>
+	<!-- Stylesheets -->
+	<link href="css/slick.css" rel="stylesheet">
+	<link href="css/animate.min.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+	<link href="css/bootstrap-datetimepicker.css" rel="stylesheet">
+	<link href="css/style_1.css" rel="stylesheet">
+	<link href="css/color.css" rel="stylesheet">
+	<!--Favicon-->
+	<link rel="icon" href="images/favicon.png" type="image/x-icon">
+	<!-- Google Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900" rel="stylesheet">
+</head>
+
+<body class="shop-page layout-medlab">
+
+<header class="header">
+	<div class="header-quickLinks js-header-quickLinks d-lg-none">
+		<div class="quickLinks-top js-quickLinks-top"></div>
+		<div class="js-quickLinks-wrap-m">
+		</div>
+	</div>
+	<div class="header-topline d-none d-lg-flex">
+		<div class="container">
+			<div class="row align-items-center">
+				<div class="col-auto d-flex align-items-center">
+					<div class="header-info"><i class="icon-placeholder2"></i>1560 Holden Street San Diego, CA 92139</div>
+					<div class="header-phone"><i class="icon-telephone"></i><a href="tel:1-847-555-5555">1-800-267-0000</a></div>
+					<div class="header-info"><i class="icon-black-envelope"></i><a href="mailto:info@dentco.net">info@dentco.net</a></div>
+				</div>
+				<div class="col-auto ml-auto d-flex align-items-center">
+						<span class="header-social">
+							<a href="#" class="hovicon"><i class="icon-facebook-logo-circle"></i></a>
+							<a href="#" class="hovicon"><i class="icon-twitter-logo-circle"></i></a>
+							<a href="#" class="hovicon"><i class="icon-google-plus-circle"></i></a>
+						</span>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="header-content">
+		<div class="container">
+			<div class="row align-items-lg-center">
+				<button class="navbar-toggler collapsed" data-toggle="collapse" data-target="#navbarNavDropdown">
+					<span class="icon-menu"></span>
+				</button>
+				<div class="col-lg-auto col-lg-2 d-flex align-items-lg-center">
+					<a href="index.html" class="header-logo"><img src="logo.png" alt="" class="img-fluid"></a>
+				</div>
+				<div class="col-lg ml-auto header-nav-wrap">
+					<div class="header-nav js-header-nav">
+						<nav class="navbar navbar-expand-lg btco-hover-menu">
+							<div class="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
+								<ul class="navbar-nav">
+									<li class="nav-item">
+										<a class="nav-link" href="about.html">About Us</a>
+									</li>
+									<li class="nav-item">
+										<a href="services.html" class="nav-link dropdown-toggle" data-toggle="dropdown">Services</a>
+										<ul class="dropdown-menu">
+											<li><a class="dropdown-item" href="services.html">All Services</a></li>
+											<li><a class="dropdown-item" href="service-page.html">Service Page</a></li>
+											<li><a class="dropdown-item" href="prices.html">Prices</a></li>
+											<li><a class="dropdown-item" href="shop-listing.html">Online Shop</a></li>
+										</ul>
+									</li>
+									<li class="nav-item">
+										<a href="gallery.html" class="nav-link dropdown-toggle" data-toggle="dropdown">Smiles Gallery</a>
+										<ul class="dropdown-menu">
+											<li><a class="dropdown-item" href="gallery.html">Creative Gallery</a></li>
+											<li><a class="dropdown-item" href="gallery-simple.html">Simple Gallery</a></li>
+										</ul>
+									</li>
+									<li class="nav-item">
+										<a href="our-specialist.html" class="nav-link dropdown-toggle" data-toggle="dropdown">Our Specialists</a>
+										<ul class="dropdown-menu">
+											<li><a class="dropdown-item" href="our-specialist.html">All Specialists</a></li>
+											<li><a class="dropdown-item" href="doctor-page.html">Doctor Page</a></li>
+											<li><a class="dropdown-item" href="schedule.html">Schedule Table</a></li>
+										</ul>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link" href="testimonials.html">Testimonials</a>
+									</li>
+									<li class="nav-item dropdown">
+										<a href="blog.html" class="nav-link dropdown-toggle" data-toggle="dropdown">Blog</a>
+										<ul class="dropdown-menu">
+											<li><a class="dropdown-item" href="blog.html">Blog Posts</a></li>
+											<li><a class="dropdown-item" href="blog-grid.html">Blog Grid Posts</a></li>
+											<li><a class="dropdown-item" href="blog-post-page.html">Blog Single Post</a></li>
+										</ul>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link" href="contact.html">Contacts</a>
+									</li>
+								</ul>
+							</div>
+						</nav>
+					</div>
+					<div class="header-search">
+						<form action="#" class="form-inline">
+							<i class="icon-search"></i>
+							<input type="text" placeholder="Search">
+							<button type="submit"><i class="icon-search"></i></button>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</header>
+<!--//header-->
+<div class="page-content">
+
+	<!--section departments-->
+	<div class="section bg-bottom bg-right bg-norepeat bg-md-none bg-fixed section-bottom-padding section-top-padding" style="background-image: url(images/bg-bottom-right.png)">
+		<div class="container">
+			<div class="row mt-lg-4">
+				<div class="col-md-6 col-xl-6 pr-xl-7">
+					<div class="department-tabs2">
+						<div class="department-tab2">
+							<div class="department-tab2-number">1</div>
+							<div class="department-tab2-text">Latest Equipment</div>
+							<div class="department-tab2-decor"></div>
+						</div>
+						<div class="department-tab2">
+							<div class="department-tab2-number">2</div>
+							<div class="department-tab2-text">Quality Service</div>
+							<div class="department-tab2-decor"></div>
+						</div>
+						<div class="department-tab2">
+							<div class="department-tab2-number">3</div>
+							<div class="department-tab2-text">Skilled Team</div>
+							<div class="department-tab2-decor"></div>
+						</div>
+						<div class="department-tab2">
+							<div class="department-tab2-number">4</div>
+							<div class="department-tab2-text">Positive Reviews</div>
+							<div class="department-tab2-decor"></div>
+						</div>
+					</div>
+					<div class="department-tabs2-bg"><img src="images/bg-department.png" alt=""></div>
+				</div>
+				<div class="col-md-6 col-xl-6">
+					<div class="department-carousel2">
+						<div class="department-item">
+							<div class="h-sub theme-color">About us</div>
+							<h2>Personal Licensed<br>Diagnostic <span class="theme-color">Lab Services</span></h2>
+							<p>We pride ourselves on the trained skills needed for the preparation of diversified testing. We are of the sound belief that timely diagnosis could cast off the scar of many of the grave diseases. It can be made possible if you consult your doctor for suspected diseases.</p>
+							<ul class="marker-list-md">
+								<li>All reports for clients are made simple and easy to understand</li>
+								<li>User- friendly website offers custom settings for each physician</li>
+								<li>We customize panels to meet physician’s needs.</li>
+							</ul>
+							<a href="#" class="btn mt-3" data-toggle="modal" data-target="#modalBookingForm"><i class="icon-right-arrow"></i><span>schedule a visit</span><i class="icon-right-arrow"></i></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--//section  departments-->
+	<!--section-->
+	<div class="section bg-grey mt-md-0">
+		<div class="container">
+			<div class="title-wrap text-center">
+				<h2 class="h1 double-title double-title--white double-title--center double-title--vcenter" data-title="General Tests"><span>General<span class="clearfix d-sm-none"></span> Diagnostic Tests</span></h2>
+				<div class="h-decor"></div>
+			</div>
+			<div class="nav nav-pills-icons js-nav-pills-carousel" role="tablist">
+				<a class="nav-link active" data-toggle="pill" href="#tab-A" role="tab"><i class="icon-molecular"></i><span>Molecular Testing & Oncology</span></a>
+				<a class="nav-link" data-toggle="pill" href="#tab-B" role="tab"><i class="icon-testtube2"></i><span>Histology</span></a>
+				<a class="nav-link" data-toggle="pill" href="#tab-C" role="tab"><i class="icon-micro"></i><span>General Diagnostic<br>Tests</span></a>
+				<a class="nav-link" data-toggle="pill" href="#tab-D" role="tab"><i class="icon-testtube"></i><span>Naturopathic<br>Tests</span></a>
+				<a class="nav-link" data-toggle="pill" href="#tab-E" role="tab"><i class="icon-chromosome"></i><span>Genetics Tests</span></a>
+				<a class="nav-link" data-toggle="pill" href="#tab-F" role="tab"><i class="icon-dropper"></i><span>Cytology</span></a>
+				<a class="nav-link" data-toggle="pill" href="#tab-H" role="tab"><i class="icon-molecular"></i><span>Molecular Testing & Oncology</span></a>
+				<a class="nav-link" data-toggle="pill" href="#tab-I" role="tab"><i class="icon-testtube2"></i><span>Histology</span></a>
+				<a class="nav-link" data-toggle="pill" href="#tab-J" role="tab"><i class="icon-micro"></i><span>General Diagnostic<br>Tests</span></a>
+				<a class="nav-link" data-toggle="pill" href="#tab-K" role="tab"><i class="icon-testtube"></i><span>Naturopathic<br>Tests</span></a>
+				<a class="nav-link" data-toggle="pill" href="#tab-L" role="tab"><i class="icon-chromosome"></i><span>Genetics Tests</span></a>
+				<a class="nav-link" data-toggle="pill" href="#tab-M" role="tab"><i class="icon-dropper"></i><span>Cytology</span></a>
+			</div>
+			<div id="tab-content" class="tab-content mt-2 mt-sm-4">
+				<div id="tab-A" class="tab-pane fade show active" role="tabpanel">
+					<div class="tab-bg"><img src="images/bg-map.png" alt=""></div>
+					<div class="row">
+						<div class="col-md-6 h-100 mb-2 mb-md-0">
+							<img src="images/index-img-01.jpg" alt="" class="img-fluid">
+						</div>
+						<div class="col-md-6">
+							<div class="pt-xl-1">
+								<h3>Molecular Testing & Oncology</h3>
+								<p>Our comprehensive and highly sensitive and specific range of tests can detect genetic alterations that drive tumor growth in all types of cancer. We are highly experienced in characterizing mechanisms of action of targeted therapies, particularly against epidermal growth factor receptor (EGFR), as well as other tyrosine kinase inhibitors. We perform:</p>
+								<ul class="marker-list-md">
+									<li>Mutation analysis in tumor tissue and blood</li>
+									<li>Gene amplification and translocation testing</li>
+									<li>Immunohistochemistry (IHC)</li>
+									<li>Gene expression</li>
+								</ul>
+								<a href="#" class="btn mt-3" data-toggle="modal" data-target="#modalBookingForm"><i class="icon-right-arrow"></i><span>order test</span><i class="icon-right-arrow"></i></a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div id="tab-B" class="tab-pane fade" role="tabpanel">
+					<div class="tab-bg"><img src="images/bg-map.png" alt=""></div>
+					<div class="row">
+						<div class="col-md-6 h-100 mb-2 mb-md-0">
+							<img src="images/index-img-01-2.jpg" alt="" class="img-fluid">
+						</div>
+						<div class="col-md-6">
+							<div class="pt-xl-1">
+								<h3>Histology</h3>
+								<p>Our SANAS accredited histology laboratory offers a diagnostic service to both the private and public sectors. Our large team of anatomical pathologists, technologists and technicians, with vast amounts of experience offers a diagnostic and consultative service on a number of tissue samples including biopsies and resection specimens.</p>
+								<ul class="marker-list-md">
+									<li>Immunocytochemistry</li>
+									<li>Immunofluorescence</li>
+									<li>Electron Microscopy</li>
+									<li>Neuropathology</li>
+								</ul>
+								<a href="#" class="btn mt-3" data-toggle="modal" data-target="#modalBookingForm"><i class="icon-right-arrow"></i><span>order test</span><i class="icon-right-arrow"></i></a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div id="tab-C" class="tab-pane fade" role="tabpanel">
+					<div class="tab-bg"><img src="images/bg-map.png" alt=""></div>
+					<div class="row">
+						<div class="col-md-6 h-100 mb-2 mb-md-0">
+							<img src="images/index-img-01-3.jpg" alt="" class="img-fluid">
+						</div>
+						<div class="col-md-6">
+							<div class="pt-xl-1">
+								<h3>General Diagnostic Tests</h3>
+								<p>We are an industry leader in ensuring exceptional quality testing in our state-of-the-art facilities. Diagnostic tests are used to detect, confirm, or rule out the presence of a disease or medical condition. They can be used to screen for certain conditions in people who are at increased risk; to evaluate the effects of treatment; or to monitor disease progression.</p>
+								<ul class="marker-list-md">
+									<li>Complete blood counts</li>
+									<li>Anticoagulant Therapy Monitoring</li>
+									<li>Blood Chemistry Analyses</li>
+									<li>Therapeutic drug monitoring</li>
+								</ul>
+								<a href="#" class="btn mt-3" data-toggle="modal" data-target="#modalBookingForm"><i class="icon-right-arrow"></i><span>order test</span><i class="icon-right-arrow"></i></a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div id="tab-D" class="tab-pane fade" role="tabpanel">
+					<div class="tab-bg"><img src="images/bg-map.png" alt=""></div>
+					<div class="row">
+						<div class="col-md-6 h-100 mb-2 mb-md-0">
+							<img src="images/index-img-01-4.jpg" alt="" class="img-fluid">
+						</div>
+						<div class="col-md-6">
+							<div class="pt-xl-1">
+								<h3>Naturopathic Tests</h3>
+								<p>We will perform both standard and specialized naturopathic lab tests as part of the assessment process. Naturopathic doctors can order many of the same diagnostic tests as your family physician, such as blood work, stool, urine, and saliva testing. We can also perform an H Pylori Breath Test, Stool Ova and Parasite testing.
+								</p>
+								<ul class="marker-list-md">
+									<li>Gastrointestinal Testing</li>
+									<li>Laboratory Tests on Hormonal Levels</li>
+									<li>Cardiovascular Lab Tests</li>
+									<li>Toxins & Pollutant Testing</li>
+								</ul>
+								<a href="#" class="btn mt-3" data-toggle="modal" data-target="#modalBookingForm"><i class="icon-right-arrow"></i><span>order test</span><i class="icon-right-arrow"></i></a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div id="tab-E" class="tab-pane fade" role="tabpanel">
+					<div class="tab-bg"><img src="images/bg-map.png" alt=""></div>
+					<div class="row">
+						<div class="col-md-6 h-100 mb-2 mb-md-0">
+							<img src="images/index-img-01-5.jpg" alt="" class="img-fluid">
+						</div>
+						<div class="col-md-6">
+							<div class="pt-xl-1">
+								<h3>Genetics Tests</h3>
+								<p>Genes are DNA instructions that we all inherit from our parents. Different “mistakes” in our genes, called mutations, can cause different diseases. Some of these diseases are rare, like cystic fibrosis or Huntington’s disease, others are common, like cancer. Genetic tests can be used to confirm the diagnosis or give you information about possible development of a disease.</p>
+								<ul class="marker-list-md">
+									<li>PCR</li>
+									<li>DNA Sequencing</li>
+									<li>Cytogenetics (Karyotyping and FISH)</li>
+									<li>Microarrays</li>
+								</ul>
+								<a href="#" class="btn mt-3" data-toggle="modal" data-target="#modalBookingForm"><i class="icon-right-arrow"></i><span>order test</span><i class="icon-right-arrow"></i></a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div id="tab-F" class="tab-pane fade" role="tabpanel">
+					<div class="tab-bg"><img src="images/bg-map.png" alt=""></div>
+					<div class="row">
+						<div class="col-md-6 h-100 mb-2 mb-md-0">
+							<img src="images/index-img-01-6.jpg" alt="" class="img-fluid">
+						</div>
+						<div class="col-md-6">
+							<div class="pt-xl-1">
+								<h3>Cytology</h3>
+								<p>Aside from tissue biopsy, cytology serves as an indispensable tool in screening and diagnosing cancer. In this technique, a cytological material is obtained from the patient, spread onto glass slides for microscopic examination, stained, screened for abnormalities and assessed prior to the issuance of a final report.</p>
+								<ul class="marker-list-md">
+									<li>Gynaecological Cytology</li>
+									<li>Non-Gynaecological Cytology</li>
+									<li>Fine Needle Aspiration Cytology</li>
+									<li>BAL Differential Cell Count</li>
+								</ul>
+								<a href="#" class="btn mt-3" data-toggle="modal" data-target="#modalBookingForm"><i class="icon-right-arrow"></i><span>order test</span><i class="icon-right-arrow"></i></a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div id="tab-H" class="tab-pane fade" role="tabpanel">
+					<div class="tab-bg"><img src="images/bg-map.png" alt=""></div>
+					<div class="row">
+						<div class="col-md-6 h-100 mb-2 mb-md-0">
+							<img src="images/index-img-01.jpg" alt="" class="img-fluid">
+						</div>
+						<div class="col-md-6">
+							<div class="pt-xl-1">
+								<h3>Molecular Testing & Oncology</h3>
+								<p>Our comprehensive and highly sensitive and specific range of tests can detect genetic alterations that drive tumor growth in all types of cancer. We are highly experienced in characterizing mechanisms of action of targeted therapies, particularly against epidermal growth factor receptor (EGFR), as well as other tyrosine kinase inhibitors. We perform:</p>
+								<ul class="marker-list-md">
+									<li>Mutation analysis in tumor tissue and blood</li>
+									<li>Gene amplification and translocation testing</li>
+									<li>Immunohistochemistry (IHC)</li>
+									<li>Gene expression</li>
+								</ul>
+								<a href="#" class="btn mt-3" data-toggle="modal" data-target="#modalBookingForm"><i class="icon-right-arrow"></i><span>order test</span><i class="icon-right-arrow"></i></a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div id="tab-I" class="tab-pane fade" role="tabpanel">
+					<div class="tab-bg"><img src="images/bg-map.png" alt=""></div>
+					<div class="row">
+						<div class="col-md-6 h-100 mb-2 mb-md-0">
+							<img src="images/index-img-01-2.jpg" alt="" class="img-fluid">
+						</div>
+						<div class="col-md-6">
+							<div class="pt-xl-1">
+								<h3>Histology</h3>
+								<p>Our SANAS accredited histology laboratory offers a diagnostic service to both the private and public sectors. Our large team of anatomical pathologists, technologists and technicians, with vast amounts of experience offers a diagnostic and consultative service on a number of tissue samples including biopsies and resection specimens.</p>
+								<ul class="marker-list-md">
+									<li>Immunocytochemistry</li>
+									<li>Immunofluorescence</li>
+									<li>Electron Microscopy</li>
+									<li>Neuropathology</li>
+								</ul>
+								<a href="#" class="btn mt-3" data-toggle="modal" data-target="#modalBookingForm"><i class="icon-right-arrow"></i><span>order test</span><i class="icon-right-arrow"></i></a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div id="tab-J" class="tab-pane fade" role="tabpanel">
+					<div class="tab-bg"><img src="images/bg-map.png" alt=""></div>
+					<div class="row">
+						<div class="col-md-6 h-100 mb-2 mb-md-0">
+							<img src="images/index-img-01-3.jpg" alt="" class="img-fluid">
+						</div>
+						<div class="col-md-6">
+							<div class="pt-xl-1">
+								<h3>General Diagnostic Tests</h3>
+								<p>We are an industry leader in ensuring exceptional quality testing in our state-of-the-art facilities. Diagnostic tests are used to detect, confirm, or rule out the presence of a disease or medical condition. They can be used to screen for certain conditions in people who are at increased risk; to evaluate the effects of treatment; or to monitor disease progression.</p>
+								<ul class="marker-list-md">
+									<li>Complete blood counts</li>
+									<li>Anticoagulant Therapy Monitoring</li>
+									<li>Blood Chemistry Analyses</li>
+									<li>Therapeutic drug monitoring</li>
+								</ul>
+								<a href="#" class="btn mt-3" data-toggle="modal" data-target="#modalBookingForm"><i class="icon-right-arrow"></i><span>order test</span><i class="icon-right-arrow"></i></a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div id="tab-K" class="tab-pane fade" role="tabpanel">
+					<div class="tab-bg"><img src="images/bg-map.png" alt=""></div>
+					<div class="row">
+						<div class="col-md-6 h-100 mb-2 mb-md-0">
+							<img src="images/index-img-01-4.jpg" alt="" class="img-fluid">
+						</div>
+						<div class="col-md-6">
+							<div class="pt-xl-1">
+								<h3>Naturopathic Tests</h3>
+								<p>We will perform both standard and specialized naturopathic lab tests as part of the assessment process. Naturopathic doctors can order many of the same diagnostic tests as your family physician, such as blood work, stool, urine, and saliva testing. We can also perform an H Pylori Breath Test, Stool Ova and Parasite testing.
+								</p>
+								<ul class="marker-list-md">
+									<li>Gastrointestinal Testing</li>
+									<li>Laboratory Tests on Hormonal Levels</li>
+									<li>Cardiovascular Lab Tests</li>
+									<li>Toxins & Pollutant Testing</li>
+								</ul>
+								<a href="#" class="btn mt-3" data-toggle="modal" data-target="#modalBookingForm"><i class="icon-right-arrow"></i><span>order test</span><i class="icon-right-arrow"></i></a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div id="tab-L" class="tab-pane fade" role="tabpanel">
+					<div class="tab-bg"><img src="images/bg-map.png" alt=""></div>
+					<div class="row">
+						<div class="col-md-6 h-100 mb-2 mb-md-0">
+							<img src="images/index-img-01-5.jpg" alt="" class="img-fluid">
+						</div>
+						<div class="col-md-6">
+							<div class="pt-xl-1">
+								<h3>Genetics Tests</h3>
+								<p>Genes are DNA instructions that we all inherit from our parents. Different “mistakes” in our genes, called mutations, can cause different diseases. Some of these diseases are rare, like cystic fibrosis or Huntington’s disease, others are common, like cancer. Genetic tests can be used to confirm the diagnosis or give you information about possible development of a disease.</p>
+								<ul class="marker-list-md">
+									<li>PCR</li>
+									<li>DNA Sequencing</li>
+									<li>Cytogenetics (Karyotyping and FISH)</li>
+									<li>Microarrays</li>
+								</ul>
+								<a href="#" class="btn mt-3" data-toggle="modal" data-target="#modalBookingForm"><i class="icon-right-arrow"></i><span>order test</span><i class="icon-right-arrow"></i></a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div id="tab-M" class="tab-pane fade" role="tabpanel">
+					<div class="tab-bg"><img src="images/bg-map.png" alt=""></div>
+					<div class="row">
+						<div class="col-md-6 h-100 mb-2 mb-md-0">
+							<img src="images/index-img-01-6.jpg" alt="" class="img-fluid">
+						</div>
+						<div class="col-md-6">
+							<div class="pt-xl-1">
+								<h3>Cytology</h3>
+								<p>Aside from tissue biopsy, cytology serves as an indispensable tool in screening and diagnosing cancer. In this technique, a cytological material is obtained from the patient, spread onto glass slides for microscopic examination, stained, screened for abnormalities and assessed prior to the issuance of a final report.</p>
+								<ul class="marker-list-md">
+									<li>Gynaecological Cytology</li>
+									<li>Non-Gynaecological Cytology</li>
+									<li>Fine Needle Aspiration Cytology</li>
+									<li>BAL Differential Cell Count</li>
+								</ul>
+								<a href="#" class="btn mt-3" data-toggle="modal" data-target="#modalBookingForm"><i class="icon-right-arrow"></i><span>order test</span><i class="icon-right-arrow"></i></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--//section-->
+	<!--section services -->
+	<div class="section bg-norepeat bg-md-none section-top-padding" style="background-image: url(images/bg-top-left.png)">
+		<div class="container-fluid px-0 over-visible">
+			<div class="row">
+				<div class="col-lg-6">
+					<div class="services-tab-wrap float-right">
+						<div class="title-wrap-alt text-center text-md-left">
+							<div class="h-sub theme-color">What we Offer</div>
+							<h2 class="h1 double-title double-title--top-md" data-title="Services"><span>Other Laboratory <span class="theme-color">Services</span></span></h2>
+						</div>
+						<p>Results of test procedures processed on site are reported to the health care provider the same day during regular business hours. Testing and services available through our Laboratory include:</p>
+						<div class="row">
+							<div class="col-sm-auto">
+								<ul class="marker-list-md">
+									<li>Blood Bank / Transfusion</li>
+									<li>Immunology and Flow Cytometry</li>
+									<li>Reference Lab Testing referrals</li>
+									<li>Chemistry</li>
+									<li>Hematology</li>
+									<li>Histology</li>
+									<li>Serology</li>
+								</ul>
+							</div>
+							<div class="col-sm-auto mt-1 mt-md-0">
+								<ul class="marker-list-md">
+									<li>Point-of-Care Testing</li>
+									<li>Microbiology and Virology</li>
+									<li>Molecular Pathology</li>
+									<li>Bone Marrow Biopsy</li>
+									<li>Coagulation</li>
+									<li>Pathology & Cytology</li>
+									<li>Urinalysis</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-6 position-relative">
+					<div class="ml-xl-6">
+						<img src="images/index-img-02.jpg" class="w-sm-100" alt="">
+					</div>
+					<div class="over-image-card pos-left">
+						<div class="over-image-card-icon"><i class="icon-download"></i></div>
+						<div class="over-image-card-text">
+							<h4>Download Forms</h4>
+							<p>We have request forms available for diagnostics that list the test panels and individual markers currently available.</p>
+							<a href="form-download.html" class="btn btn-white btn-white--all"><i class="icon-right-arrow"></i><span>download forms</span><i class="icon-right-arrow"></i></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--//section services -->
+	<!--section faq-->
+	<div class="section mt-lg-large">
+		<div class="row">
+			<div class="col-lg-6">
+				<div class="container-shift-left mb-3 mb-md-4">
+					<div class="title-wrap text-center text-lg-left">
+						<h2 class="h1 double-title double-title--vcenter" data-title="FAQ"><span>Patient <span class="theme-color">Information</span></span></h2>
+					</div>
+				</div>
+				<div class="image-shift-right">
+					<img src="images/banner-left.jpg" alt="" class="w-md-100">
+					<div class="over-image-card pos-right">
+						<div class="over-image-card-icon"><i class="icon-card"></i></div>
+						<div class="over-image-card-text">
+							<h4>Pay Online</h4>
+							<p>Online Payment for Patients. For your convenience MedLab now offers the ability to make a secure payment online.</p>
+							<a href="form-payonline.html" class="btn btn-white btn-white--all"><i class="icon-right-arrow"></i><span>pay online</span><i class="icon-right-arrow"></i></a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-6">
+				<div class="faq-wrap-bg">
+					<div class="faq-wrap faq-wrap--pad-md">
+						<h2 class="h1 bg-title">Questions</h2>
+						<div class="nav nav-pills nav-pills--noborder" role="tablist">
+							<a class="nav-link active" data-toggle="pill" href="#tab-A1" role="tab"><i class="icon-labinstrument"></i>General</a>
+							<a class="nav-link" data-toggle="pill" href="#tab-B1" role="tab"><i class="icon-billing"></i>Billing Questions</a>
+							<a class="nav-link" href="#" data-toggle="modal" data-target="#modalQuestionForm"><i class="icon-question"></i>Ask Question</a>
+						</div>
+						<div id="tab-content-2" class="tab-content mt-2">
+							<div id="tab-A1" class="tab-pane fade show active" role="tabpanel">
+								<div id="faqAccordion1" class="faq-accordion faq-accordion--style2" data-children=".faq-item">
+									<div class="faq-item">
+										<a data-toggle="collapse" data-parent="#faqAccordion1" href="#faqItem1" aria-expanded="true"><span>1.</span><span>How long does my eye exam take?</span></a>
+										<div id="faqItem1" class="collapse show faq-item-content" role="tabpanel">
+											<div>
+												<p>A typical eye exam take 1-1.5 hours because we do a comprehensive, dilated eye exam. This includes: dilation, tonometry (a measurement of eye pressure), visual field test (a measurement of peripheral vision) and visual acuity test (a measurement of distance vision).</p>
+											</div>
+										</div>
+									</div>
+									<div class="faq-item">
+										<a data-toggle="collapse" data-parent="#faqAccordion1" href="#faqItem2" aria-expanded="false" class="collapsed"><span>2.</span><span>How affordable are your services?</span></a>
+										<div id="faqItem2" class="collapse faq-item-content" role="tabpanel">
+											<div>
+												<p>
+													Everyone’s needs are different, so have a chat to your dentist about how often you need to have your teeth checked by them based on the condition of your mouth, teeth and gums. It’s recommended that children see their dentist at least once a year.
+												</p>
+											</div>
+										</div>
+									</div>
+									<div class="faq-item">
+										<a data-toggle="collapse" data-parent="#faqAccordion1" href="#faqItem3" aria-expanded="false" class="collapsed"><span>3.</span><span>Where can I find out more about specific conditions?</span></a>
+										<div id="faqItem3" class="collapse faq-item-content" role="tabpanel">
+											<div>
+												<p>
+													Everyone’s needs are different, so have a chat to your dentist about how often you need to have your teeth checked by them based on the condition of your mouth, teeth and gums. It’s recommended that children see their dentist at least once a year.
+												</p>
+											</div>
+										</div>
+									</div>
+									<div class="faq-item">
+										<a data-toggle="collapse" data-parent="#faqAccordion1" href="#faqItem4" aria-expanded="false" class="collapsed"><span>4.</span><span>Which consultants work in the general ophthalmology service?</span></a>
+										<div id="faqItem4" class="collapse faq-item-content" role="tabpanel">
+											<div>
+												<p>
+													Everyone’s needs are different, so have a chat to your dentist about how often you need to have your teeth checked by them based on the condition of your mouth, teeth and gums. It’s recommended that children see their dentist at least once a year.
+												</p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div id="tab-B1" class="tab-pane fade" role="tabpanel">
+								<div id="faqAccordion2" class="faq-accordion faq-accordion--style2" data-children=".faq-item">
+									<div class="faq-item">
+										<a data-toggle="collapse" data-parent="#faqAccordion2" href="#faqItem21" aria-expanded="true"><span>1.</span><span>How can I improve my oral hygiene?</span></a>
+										<div id="faqItem21" class="collapse show faq-item-content" role="tabpanel">
+											<div>
+												<p>
+													Everyone’s needs are different, so have a chat to your dentist about how often you need to have your teeth checked by them based on the condition of your mouth, teeth and gums. It’s recommended that children see their dentist at least once a year.
+												</p>
+											</div>
+										</div>
+									</div>
+									<div class="faq-item">
+										<a data-toggle="collapse" data-parent="#faqAccordion2" href="#faqItem22" aria-expanded="false" class="collapsed"><span>2.</span><span>How do I know if my teeth are healthy?</span></a>
+										<div id="faqItem22" class="collapse faq-item-content" role="tabpanel">
+											<div>
+												<p>
+													Everyone’s needs are different, so have a chat to your dentist about how often you need to have your teeth checked by them based on the condition of your mouth, teeth and gums. It’s recommended that children see their dentist at least once a year.
+												</p>
+											</div>
+										</div>
+									</div>
+									<div class="faq-item">
+										<a data-toggle="collapse" data-parent="#faqAccordion2" href="#faqItem23" aria-expanded="false" class="collapsed"><span>3.</span>Why are regular dental assessments so important?</a>
+										<div id="faqItem23" class="collapse faq-item-content" role="tabpanel">
+											<div>
+												<p>
+													Everyone’s needs are different, so have a chat to your dentist about how often you need to have your teeth checked by them based on the condition of your mouth, teeth and gums. It’s recommended that children see their dentist at least once a year.
+												</p>
+											</div>
+										</div>
+									</div>
+									<div class="faq-item">
+										<a data-toggle="collapse" data-parent="#faqAccordion2" href="#faqItem24" aria-expanded="false" class="collapsed"><span>4.</span><span>How often 1 should I visit my dentist?</span></a>
+										<div id="faqItem24" class="collapse faq-item-content" role="tabpanel">
+											<div>
+												<p>
+													Everyone’s needs are different, so have a chat to your dentist about how often you need to have your teeth checked by them based on the condition of your mouth, teeth and gums. It’s recommended that children see their dentist at least once a year.
+												</p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--//section faq-->
+	<!--section specialists-->
+	<div class="section bg-norepeat bg-right bg-md-none section-top-padding" style="background-image: url(images/bg-top-right.png)">
+		<div class="container">
+			<div class="title-wrap text-center">
+				<div class="h-sub theme-color">Perfect Team</div>
+				<h1 class="double-title double-title--center double-title--vcenter" data-title="Perfect Team"><span>A Professional & Care Provider</span></h1>
+				<div class="h-decor"></div>
+			</div>
+			<form action="#" class="content-search content-search--style2 d-flex mb-3">
+				<div class="input-wrap">
+					<input type="text" class="form-control" placeholder="Search for specialist" list="doctorPosition">
+					<datalist id="doctorPosition">
+						<option value="Medical Director">
+						</option><option value="Tissue Bank Director">
+						</option><option value="Embryologist">
+					</option></datalist>
+				</div>
+				<button type="submit"><i class="icon-search"></i></button>
+			</form>
+			<div class="row specialist-carousel js-specialist-carousel">
+				<div class="col-sm-6 col-md-4 category1">
+					<div class="doctor-box doctor-box-style3 text-center">
+						<div class="doctor-box-photo">
+							<a href="doctor-page.html"><img src="images/doctor-01.jpg" class="img-fluid" alt=""></a>
+							<div class="doctor-box-links">
+								<a href="#"><i class="icon-facebook-logo"></i></a>
+								<a href="#"><i class="icon-google-logo"></i></a>
+								<a href="#"><i class="icon-instagram"></i></a>
+							</div>
+						</div>
+						<div class="doctor-box-top">
+							<h5 class="doctor-box-name"><a href="doctor-page.html">Dr. Frank Bigham</a></h5>
+							<div class="doctor-box-position">Medical Director</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-6 col-md-4 category2">
+					<div class="doctor-box doctor-box-style3 text-center">
+						<div class="doctor-box-photo">
+							<a href="doctor-page.html"><img src="images/doctor-02.jpg" class="img-fluid" alt=""></a>
+							<div class="doctor-box-links">
+								<a href="#"><i class="icon-facebook-logo"></i></a>
+								<a href="#"><i class="icon-google-logo"></i></a>
+								<a href="#"><i class="icon-instagram"></i></a>
+							</div>
+						</div>
+						<div class="doctor-box-top">
+							<h5 class="doctor-box-name"><a href="doctor-page.html">Dr. Stuart Orozco</a></h5>
+							<div class="doctor-box-position">Tissue Bank Director</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-6 col-md-4 category2">
+					<div class="doctor-box doctor-box-style3 text-center">
+						<div class="doctor-box-photo">
+							<a href="doctor-page.html"><img src="images/doctor-03.jpg" class="img-fluid" alt=""></a>
+							<div class="doctor-box-links">
+								<a href="#"><i class="icon-facebook-logo"></i></a>
+								<a href="#"><i class="icon-google-logo"></i></a>
+								<a href="#"><i class="icon-instagram"></i></a>
+							</div>
+						</div>
+						<div class="doctor-box-top">
+							<h5 class="doctor-box-name"><a href="doctor-page.html">Dr. Betty Bone</a></h5>
+							<div class="doctor-box-position">Embryologist</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-6 col-md-4 category1">
+					<div class="doctor-box doctor-box-style3 text-center">
+						<div class="doctor-box-photo">
+							<a href="doctor-page.html"><img src="images/doctor-04.jpg" class="img-fluid" alt=""></a>
+							<div class="doctor-box-links">
+								<a href="#"><i class="icon-facebook-logo"></i></a>
+								<a href="#"><i class="icon-google-logo"></i></a>
+								<a href="#"><i class="icon-instagram"></i></a>
+							</div>
+						</div>
+						<div class="doctor-box-top">
+							<h5 class="doctor-box-name"><a href="doctor-page.html">Dr. Robert Rush</a></h5>
+							<div class="doctor-box-position">Psychiatrist</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-6 col-md-4 category1">
+					<div class="doctor-box doctor-box-style3 text-center">
+						<div class="doctor-box-photo">
+							<a href="doctor-page.html"><img src="images/doctor-05.jpg" class="img-fluid" alt=""></a>
+							<div class="doctor-box-links">
+								<a href="#"><i class="icon-facebook-logo"></i></a>
+								<a href="#"><i class="icon-google-logo"></i></a>
+								<a href="#"><i class="icon-instagram"></i></a>
+							</div>
+						</div>
+						<div class="doctor-box-top">
+							<h5 class="doctor-box-name"><a href="doctor-page.html">Dr. Terri Williams</a></h5>
+							<div class="doctor-box-position">Psychiatrist</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-6 col-md-4 category2">
+					<div class="doctor-box doctor-box-style3 text-center">
+						<div class="doctor-box-photo">
+							<a href="doctor-page.html"><img src="images/doctor-06.jpg" class="img-fluid" alt=""></a>
+							<div class="doctor-box-links">
+								<a href="#"><i class="icon-facebook-logo"></i></a>
+								<a href="#"><i class="icon-google-logo"></i></a>
+								<a href="#"><i class="icon-instagram"></i></a>
+							</div>
+						</div>
+						<div class="doctor-box-top">
+							<h5 class="doctor-box-name"><a href="doctor-page.html">Dr. Berry Gardner</a></h5>
+							<div class="doctor-box-position">Cardiolog</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--//section specialists-->
+	<!--section testimonials-->
+	<div class="section bg-grey p-0">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6">
+					<div class="reviews-style4-wrap">
+						<div class="reviews-style4">
+							<div class="title-wrap">
+								<div class="h-sub theme-color">Testimonials</div>
+								<h2 class="h1 double-title double-title--white double-title--right" data-title="Testimonials"><span>What Our<br class="d-sm-none">Customers Say</span></h2>
+							</div>
+							<div class="js-reviews-carousel2 reviews-carousel">
+								<div class="review">
+									<p class="review-text">“I have used Your services to have my PSA tests done. I have found them to be helpful and professional in performing the lab tests. They also have been prompt in reporting the results back to me. It is nice to be able to get the tests done without having to see a doctor “for permission!” I recommend this service for those who want to watch their own health as much as possible.”</p>
+									<p><span class="review-author">- Joseph Dunbar,</span> <span class="review-author-position">Carpenter</span>
+									</p>
+								</div>
+								<div class="review">
+									<p class="review-text">“I have used Your services to have my PSA tests done. I have found them to be helpful and professional in performing the lab tests. They also have been prompt in reporting the results back to me. It is nice to be able to get the tests done without having to see a doctor “for permission!” I recommend this service for those who want to watch their own health as much as possible.”</p>
+									<p><span class="review-author">- Steven Roa,</span> <span class="review-author-position">Businesswoman</span>
+									</p>
+								</div>
+								<div class="review">
+									<p class="review-text">“I have used Your services to have my PSA tests done. I have found them to be helpful and professional in performing the lab tests. They also have been prompt in reporting the results back to me. It is nice to be able to get the tests done without having to see a doctor “for permission!” I recommend this service for those who want to watch their own health as much as possible.”</p>
+									<p><span class="review-author">- Wilmer Stevenson,</span> <span class="review-author-position">Creative manager</span>
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6 py-sm-3 px-md-4 px-xl-8">
+					<div class="testimonials-bg-wrap">
+						<img src="images/tesimonials-bg.png" alt="" class="reviews-style4-image-right">
+						<div class="testimonials-icon"><span><span>“</span></span></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--//section testimonials-->
+	<!--section prices-->
+	<div class="section bg-norepeat bg-md-none section-top-padding" style="background-image: url(images/bg-top-left2.png)">
+		<div class="container">
+			<div class="title-wrap text-center">
+				<h2 class="h1 double-title double-title--center double-title--vcenter" data-title="Price Packages"><span>Price Packages</span></h2>
+				<div class="h-decor"></div>
+			</div>
+			<div class="row justify-content-center prices-carousel js-prices-carousel mt-2">
+				<div class="col-sm-6 col-md-4">
+					<div class="prices-box prices-box--style2">
+						<h4 class="prices-box-title">Healthy Days Special</h4>
+						<div class="prices-box-text">Includes: 76 Parametersl</div>
+						<div class="prices-box-price">
+							<sub>$</sub>24<sub>.99</sub>
+						</div>
+						<div class="prices-box-row">Blood Glucose Fasting</div>
+						<div class="prices-box-row">Complete Hemogram</div>
+						<div class="prices-box-row">Kidney Function Test</div>
+						<div class="prices-box-link">
+							<a href="form-payonline.html" class="btn"><i class="icon-right-arrow"></i><span>booking now</span><i class="icon-right-arrow"></i></a>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-6 col-md-4">
+					<div class="prices-box prices-box--style2 prices-box--special">
+						<h4 class="prices-box-title">OnePlusOne Extended</h4>
+						<div class="prices-box-text">Includes: 74 Parametersl</div>
+						<div class="prices-box-price">
+							<sub>$</sub>89<sub>.99</sub>
+						</div>
+						<div class="prices-box-row">Blood Glucose Fasting</div>
+						<div class="prices-box-row">Complete Hemogram</div>
+						<div class="prices-box-row">Kidney Function Test</div>
+						<div class="prices-box-link">
+							<a href="form-payonline.html" class="btn btn-white btn-white--all"><i class="icon-right-arrow"></i><span>booking now</span><i class="icon-right-arrow"></i></a>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-6 col-md-4">
+					<div class="prices-box prices-box--style2">
+						<h4 class="prices-box-title">Basic Screening</h4>
+						<div class="prices-box-text">Includes: 60 Parametersl</div>
+						<div class="prices-box-price">
+							<sub>$</sub>49<sub>.99</sub>
+						</div>
+						<div class="prices-box-row">Blood Glucose Fasting</div>
+						<div class="prices-box-row">Complete Hemogram</div>
+						<div class="prices-box-row">Kidney Function Test</div>
+						<div class="prices-box-link">
+							<a href="form-payonline.html" class="btn"><i class="icon-right-arrow"></i><span>booking now</span><i class="icon-right-arrow"></i></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--//section prices-->
+	<!--section news & achieved-->
+	<div class="section">
+		<div class="row no-gutters row-shift">
+			<div class="col-lg-6 col-shift-right">
+				<div class="container-shift-left">
+					<div class="title-wrap">
+						<h2 class="double-title double-title--white double-title--vcenter" data-title="News"><span>News & Events</span></h2>
+					</div>
+					<div class="blog-post-sm-vertical">
+						<div class="blog-post-sm">
+							<div class="blog-post-sm-photo"><img src="images/news-01.jpg" alt="" class="img-fluid"></div>
+							<div class="blog-post-sm-text">
+								<div class="blog-post-sm-date">Mar 16, 2020</div>
+								<div class="blog-post-sm-title"><a href="blog-post-page.html">Biochemical Receptor Reverses Bone Degradation Caused by Osteoporosis</a></div>
+								<a href="blog-post-page.html" class="blog-post-sm-readmore">...</a>
+							</div>
+						</div>
+						<div class="blog-post-sm">
+							<div class="blog-post-sm-photo"><img src="images/news-02.jpg" alt="" class="img-fluid"></div>
+							<div class="blog-post-sm-text">
+								<div class="blog-post-sm-date">Mar 28, 2020</div>
+								<div class="blog-post-sm-title"><a href="blog-post-page.html">Ammonia Fuel Cell is More Powerful, Cost-Effective Than Hydrogen</a></div>
+								<a href="blog-post-page.html" class="blog-post-sm-readmore">...</a>
+							</div>
+						</div>
+						<div class="blog-post-sm">
+							<div class="blog-post-sm-photo"><img src="images/news-03.jpg" alt="" class="img-fluid"></div>
+							<div class="blog-post-sm-text">
+								<div class="blog-post-sm-date">Apr 16, 2020</div>
+								<div class="blog-post-sm-title"><a href="blog-post-page.html">Nanopore Optofluidic Device Controls Delivery of Individual Biomolecules</a></div>
+								<a href="blog-post-page.html" class="blog-post-sm-readmore">...</a>
+							</div>
+						</div>
+					</div>
+					<div class="blog-post-sm-carousel js-blog-grid-carousel-full">
+						<div class="blog-post-sm">
+							<div class="blog-post-sm-photo"><img src="images/news-01.jpg" alt="" class="img-fluid"></div>
+							<div class="blog-post-sm-text">
+								<div class="blog-post-sm-date">Mar 16, 2020</div>
+								<div class="blog-post-sm-title"><a href="blog-post-page.html">Biochemical Receptor Reverses Bone Degradation Caused by Osteoporosis</a></div>
+								<a href="blog-post-page.html" class="blog-post-sm-readmore">...</a>
+							</div>
+						</div>
+						<div class="blog-post-sm">
+							<div class="blog-post-sm-photo"><img src="images/news-02.jpg" alt="" class="img-fluid"></div>
+							<div class="blog-post-sm-text">
+								<div class="blog-post-sm-date">Mar 28, 2020</div>
+								<div class="blog-post-sm-title"><a href="blog-post-page.html">Ammonia Fuel Cell is More Powerful, Cost-Effective Than Hydrogen</a></div>
+								<a href="blog-post-page.html" class="blog-post-sm-readmore">...</a>
+							</div>
+						</div>
+						<div class="blog-post-sm">
+							<div class="blog-post-sm-photo"><img src="images/news-03.jpg" alt="" class="img-fluid"></div>
+							<div class="blog-post-sm-text">
+								<div class="blog-post-sm-date">Apr 16, 2020</div>
+								<div class="blog-post-sm-title"><a href="blog-post-page.html">Nanopore Optofluidic Device Controls Delivery of Individual Biomolecules</a></div>
+								<a href="blog-post-page.html" class="blog-post-sm-readmore">...</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-6 col-shift-left mt-4 mt-md-5 mt-lg-2">
+				<div class="container-shift-right">
+					<div class="title-wrap text-center text-md-left">
+						<h2 class="h1">Our <span class="theme-color">Achievements</span></h2>
+					</div>
+				</div>
+				<div class="mt-2 mt-md-3 mt-lg-4">
+					<img src="images/banner-right.jpg" alt="" class="w-sm-100">
+					<div class="over-image-counter pos-left">
+						<div class="d-flex w-100 justify-content-between">
+							<div class="counter-box-sm">
+								<div class="counter-box-sm-number"><span class="count" data-to="150" data-speed="1500">0</span><span class="sup">K</span></div>
+								<div class="counter-box-sm-text">Tests Performed</div>
+							</div>
+							<div class="counter-box-sm">
+								<div class="counter-box-sm-number"><span class="count" data-to="50" data-speed="1500">0</span><span class="sup">+</span></div>
+								<div class="counter-box-sm-text">Permanent Staff</div>
+							</div>
+							<div class="counter-box-sm">
+								<div class="counter-box-sm-number"><span class="count" data-to="250" data-speed="1500">0</span><span class="sup">+</span></div>
+								<div class="counter-box-sm-text">Suppliers</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--//section news & achieved-->
+	<!--section contact-->
+	<div class="section bg-norepeat bg-bottom bg-left bg-md-none bg-fixed section-bottom-padding-half section-top-padding" style="background-image: url(images/bg-bottom-left2.png)">
+		<div class="banner-appointment-form">
+			<div class="container">
+				<div class="row no-gutters">
+					<div class="col-sm-5 col-lg-5 order-2 order-sm-2 mt-3 mt-md-0 text-center">
+						<img src="images/banner-appointment.png" alt="" class="banner-appointment-form-image">
+					</div>
+					<div class="col-sm-7 col-lg-7 order-1 order-sm-1 d-flex">
+						<div class="pt-2 pt-lg-6 px-lg-3 text-center">
+							<div class="title-wrap-alt">
+								<h2 class="double-title double-title--vcenter double-title--center" data-title="Appointment"><span>Make an <span class="theme-color">Appointment</span></span></h2>
+							</div>
+							<p>We believe in providing the best possible care to all our existing patients and welcome
+								new patients to sample.</p>
+							<form class="contact-form" id="contactForm" method="post" novalidate="novalidate">
+								<div class="successform">
+									<p>Your message was sent successfully!</p>
+								</div>
+								<div class="errorform">
+									<p>Something went wrong, try refreshing and submitting the form again.</p>
+								</div>
+								<div>
+									<input type="text" class="form-control" name="name" placeholder="Your name*">
+								</div>
+								<div class="row row-sm-space mt-15">
+									<div class="col-sm-6"><input type="text" class="form-control" name="phone" placeholder="Your Phone"></div>
+									<div class="col-sm-6 mt-15 mt-sm-0"><input type="text" class="form-control" name="email" placeholder="Email*"></div>
+								</div>
+								<div class="mt-15">
+									<textarea class="form-control" name="message" placeholder="Message"></textarea>
+								</div>
+								<div class="mt-2 mt-lg-4">
+									<button type="submit" class="btn"><i class="icon-right-arrow"></i><span>Send request</span><i class="icon-right-arrow"></i></button>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--//section contact-->
+</div>
+<!--footer-->
+<div class="footer mt-0">
+	<div class="container">
+		<div class="row py-1 py-md-2 px-lg-0">
+			<div class="col-lg-4 footer-col1 pt-lg-3">
+				<div class="row flex-column flex-md-row flex-lg-column">
+					<div class="col-md col-lg-auto">
+						<div class="footer-logo">
+							<img src="images/footer-logo.png" alt="" class="img-fluid">
+						</div>
+						<div class="mt-2 mt-lg-0"></div>
+						<div class="footer-social d-none d-md-block d-lg-none">
+							<a href="https://www.facebook.com/" target="blank" class="hovicon"><i class="icon-facebook-logo"></i></a>
+							<a href="https://www.twitter.com/" target="blank" class="hovicon"><i class="icon-twitter-logo"></i></a>
+							<a href="https://plus.google.com/" target="blank" class="hovicon"><i class="icon-google-logo"></i></a>
+							<a href="https://www.instagram.com/" target="blank" class="hovicon"><i class="icon-instagram"></i></a>
+						</div>
+					</div>
+					<div class="col-md">
+						<div class="footer-text mt-1 mt-lg-1">
+							<p>To receive email releases, simply provide
+								<br>us with your email below</p>
+							<form action="#" class="footer-subscribe">
+								<div class="input-group">
+									<input name="subscribe_mail" type="text" class="form-control" placeholder="Your Email">
+									<span><i class="icon-black-envelope"></i></span>
+								</div>
+							</form>
+						</div>
+						<div class="footer-social d-md-none d-lg-block">
+							<a href="https://www.facebook.com/" target="blank" class="hovicon"><i class="icon-facebook-logo"></i></a>
+							<a href="https://www.twitter.com/" target="blank" class="hovicon"><i class="icon-twitter-logo"></i></a>
+							<a href="https://plus.google.com/" target="blank" class="hovicon"><i class="icon-google-logo"></i></a>
+							<a href="https://www.instagram.com/" target="blank" class="hovicon"><i class="icon-instagram"></i></a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-6 col-lg-4">
+				<h3>Blog Posts</h3>
+				<div class="h-decor"></div>
+				<div class="footer-post d-flex">
+					<div class="footer-post-photo"><img src="images/footer-post-author-01.jpg" alt="" class="img-fluid"></div>
+					<div class="footer-post-text">
+						<div class="footer-post-title"><a href="#">The doctor’s guide to healthy break...</a></div>
+						<p>September 26, 2018</p>
+					</div>
+				</div>
+				<div class="footer-post d-flex">
+					<div class="footer-post-photo"><img src="images/footer-post-author-03.jpg" alt="" class="img-fluid"></div>
+					<div class="footer-post-text">
+						<div class="footer-post-title"><a href="#">So, how much sex is normal?</a></div>
+						<p>August 22, 2018</p>
+					</div>
+				</div>
+				<div class="footer-post d-flex">
+					<div class="footer-post-photo"><img src="images/footer-post-author-02.jpg" alt="" class="img-fluid"></div>
+					<div class="footer-post-text">
+						<div class="footer-post-title"><a href="#">Tooth Fairy Traditions...</a></div>
+						<p>July 25, 2018</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-6 col-lg-4">
+				<h3>Our Contacts</h3>
+				<div class="h-decor"></div>
+				<ul class="icn-list">
+					<li><i class="icon-placeholder2"></i>1560 Holden Street San Diego, CA 92139
+						<br>
+						<a href="#" class="btn btn-xs btn-gradient"><i class="icon-placeholder2"></i><span>Get directions on the map</span><i class="icon-right-arrow"></i></a>
+					</li>
+					<li><i class="icon-telephone"></i><b><span class="phone"><span class="text-nowrap">1-800-267-0000</span>, <span class="text-nowrap">1-800-267-0001</span></span></b>
+						<br>(24/7 General inquiry)
+					</li>
+					<li><i class="icon-black-envelope"></i><a href="mailto:info@dentco.net">info@dentco.net</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div class="footer-bottom">
+		<div class="container">
+			<div class="row text-center text-md-left">
+				<div class="col-sm">Copyright © 2020 <a href="#">Medlab</a><span>   |   </span>
+					<a href="#">Privacy Policy</a></div>
+				<div class="col-sm-auto ml-auto"><span class="d-none d-sm-inline">For emergency cases   </span><i class="icon-telephone"></i>  <b>1-800-267-0000</b></div>
+			</div>
+		</div>
+	</div>
+</div>
+<!--//footer-->
+<div class="backToTop js-backToTop">
+	<i class="icon icon-up-arrow"></i>
+</div>
+<div class="modal modal-form modal-form-sm fade" id="modalQuestionForm">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<button aria-label="Close" class="close" data-dismiss="modal">
+				<i class="icon-error"></i>
+			</button>
+			<div class="modal-body">
+				<div class="modal-form">
+					<h3>Ask a Question</h3>
+					<form class="mt-15" id="questionForm" method="post" novalidate="">
+						<div class="successform">
+							<p>Your message was sent successfully!</p>
+						</div>
+						<div class="errorform">
+							<p>Something went wrong, try refreshing and submitting the form again.</p>
+						</div>
+						<div class="input-group">
+								<span>
+								<i class="icon-user"></i>
+							</span>
+							<input type="text" name="name" class="form-control" autocomplete="off" placeholder="Your Name*">
+						</div>
+						<div class="input-group">
+								<span>
+									<i class="icon-email2"></i>
+								</span>
+							<input type="text" name="email" class="form-control" autocomplete="off" placeholder="Your Email*">
+						</div>
+						<div class="input-group">
+								<span>
+									<i class="icon-smartphone"></i>
+								</span>
+							<input type="text" name="phone" class="form-control" autocomplete="off" placeholder="Your Phone">
+						</div>
+						<textarea name="message" class="form-control" placeholder="Your comment*"></textarea>
+						<div class="text-right mt-2">
+							<button type="submit" class="btn btn-sm btn-hover-fill">Ask Now</button>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="modal modal-form fade" id="modalBookingForm">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<button aria-label="Close" class="close" data-dismiss="modal">
+				<i class="icon-error"></i>
+			</button>
+			<div class="modal-body">
+				<div class="modal-form">
+					<h3>Book an Appointment</h3>
+					<form class="mt-15" id="bookingForm" method="post" novalidate="">
+						<div class="successform">
+							<p>Your message was sent successfully!</p>
+						</div>
+						<div class="errorform">
+							<p>Something went wrong, try refreshing and submitting the form again.</p>
+						</div>
+						<div class="input-group">
+								<span>
+								<i class="icon-user"></i>
+							</span>
+							<input type="text" name="bookingname" class="form-control" autocomplete="off" placeholder="Your Name*">
+						</div>
+						<div class="row row-xs-space mt-1">
+							<div class="col-sm-6">
+								<div class="input-group">
+										<span>
+											<i class="icon-email2"></i>
+										</span>
+									<input type="text" name="bookingemail" class="form-control" autocomplete="off" placeholder="Your Email*">
+								</div>
+							</div>
+							<div class="col-sm-6 mt-1 mt-sm-0">
+								<div class="input-group">
+										<span>
+											<i class="icon-smartphone"></i>
+										</span>
+									<input type="text" name="bookingphone" class="form-control" autocomplete="off" placeholder="Your Phone">
+								</div>
+							</div>
+						</div>
+						<div class="row row-xs-space mt-1">
+							<div class="col-sm-6">
+								<div class="input-group">
+										<span>
+											<i class="icon-birthday"></i>
+										</span>
+									<input type="text" name="bookingage" class="form-control" autocomplete="off" placeholder="Your age">
+								</div>
+							</div>
+						</div>
+						<div class="selectWrapper input-group mt-1">
+								<span>
+									<i class="icon-micro"></i>
+								</span>
+							<select name="bookingservice" class="form-control">
+								<option selected="selected" disabled="disabled">Select Service</option>
+								<option value="Molecular Testing & Oncology">Molecular Testing & Oncology</option>
+								<option value="Histology">Histology</option>
+								<option value="General Diagnostic Tests">General Diagnostic Tests</option>
+								<option value="Naturopathic">Naturopathic</option>
+								<option value="Genetics Tests">Genetics Tests</option>
+								<option value="Cytology">Cytology</option>
+							</select>
+						</div>
+						<div class="input-group flex-nowrap mt-1">
+								<span>
+									<i class="icon-calendar2"></i>
+								</span>
+							<div class="datepicker-wrap">
+								<input name="bookingdate" type="text" class="form-control datetimepicker" placeholder="Date" readonly="">
+							</div>
+						</div>
+						<div class="input-group flex-nowrap mt-1">
+								<span>
+									<i class="icon-clock"></i>
+								</span>
+							<div class="datepicker-wrap">
+								<input name="bookingtime" type="text" class="form-control timepicker" placeholder="Time">
+							</div>
+						</div>
+						<textarea name="bookingmessage" class="form-control" placeholder="Your comment"></textarea>
+						<div class="text-right mt-2">
+							<button type="submit" class="btn btn-sm btn-hover-fill">Book now</button>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- Vendors -->
+<script src="js/jquery-3.2.1.min.js"></script>
+<script src="js/jquery-migrate-3.0.1.min.js"></script>
+<script src="js/jquery.cookie.js"></script>
+<script src="js/moment.js"></script>
+<script src="js/bootstrap-datetimepicker.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.waypoints.min.js"></script>
+<script src="js/sticky.min.js"></script>
+<script src="js/imagesloaded.pkgd.min.js"></script>
+<script src="js/slick.min.js"></script>
+<script src="js/jquery.scroll-with-ease.min.js"></script>
+<script src="js/jquery.countTo.js"></script>
+<script src="js/jquery.form.js"></script>
+<script src="js/jquery.validate.min.js"></script>
+<script src="js/isotope.pkgd.min.js"></script>
+<!-- Custom Scripts -->
+<script src="js/app.js"></script>
+<script src="js/color.js"></script>
+<script src="js/app-shop.js"></script>
+<script src="js/forms.js"></script>
+
+
+
+</body></html>
