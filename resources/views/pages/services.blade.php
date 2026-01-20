@@ -37,15 +37,16 @@
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" id="media-tab" data-toggle="pill" href="#media" role="tab">
-                        <i class="icon icon-media mr-2"></i>Media & Advocacy
-                    </a>
-                </li>
-                <li class="nav-item">
                     <a class="nav-link" id="waste-tab" data-toggle="pill" href="#waste" role="tab">
                         <i class="icon icon-waste mr-2"></i>Waste Management
                     </a>
                 </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="media-tab" data-toggle="pill" href="#media" role="tab">
+                        <i class="icon icon-media mr-2"></i>Media & Advocacy
+                    </a>
+                </li>
+               
             </ul>
         </div>
     </div>
