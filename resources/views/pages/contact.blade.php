@@ -44,13 +44,13 @@
                         <p class="mb-0" style="color: #555;">
                             <strong>General & Emergency (24/7):</strong><br>
                             <a href="tel:+254728534454" style="color: #529c9b; font-weight: 600;">
-                                +254 728 534454
+                                +254734000500
                             </a>
                         </p>
                         <p class="mb-0 mt-2" style="color: #555;">
                             <strong>Business Hours Support:</strong><br>
                             <a href="tel:+254728534454" style="color: #529c9b; font-weight: 600;">
-                                +254 728 534454
+                                +254734000500
                             </a>
                         </p>
                     </div>
@@ -223,7 +223,7 @@
             <div class="col-lg-4 text-lg-end mt-3 mt-lg-0">
                 <a href="tel:+254728534454" class="btn btn-light btn-lg px-4 py-3" 
                    style="border-radius: 30px; font-weight: 600; color: #ff6b6b;">
-                    <i class="fas fa-phone-alt mr-2"></i> +254 728 534454
+                    <i class="fas fa-phone-alt mr-2"></i> +254734000500
                 </a>
             </div>
         </div>
@@ -245,7 +245,7 @@
                     [
                         'name' => 'Analytical Services',
                         'email' => 'info@centox.co.ke',
-                        'phone' => '+254 728 534454',
+                        'phone' => '+254734000500',
                         'desc' => 'Toxicological testing and laboratory analysis',
                         'icon' => 'fas fa-vial',
                         'color' => '#529c9b'
@@ -253,7 +253,7 @@
                     [
                         'name' => 'Training Division',
                         'email' => 'info@centox.co.ke',
-                        'phone' => '+254 728 534454',
+                        'phone' => '+254734000500',
                         'desc' => 'Chemical safety training & certification programs',
                         'icon' => 'fas fa-graduation-cap',
                         'color' => '#417d7c'
@@ -261,7 +261,7 @@
                     [
                         'name' => 'Environmental Services',
                         'email' => 'info@centox.co.ke',
-                        'phone' => '+254 728 534454',
+                        'phone' => '+254734000500',
                         'desc' => 'Environmental impact assessment & monitoring',
                         'icon' => 'fas fa-leaf',
                         'color' => '#529c9b'
@@ -269,7 +269,7 @@
                     [
                         'name' => 'Safety Products',
                         'email' => 'info@centox.co.ke',
-                        'phone' => '+254 728 534454',
+                        'phone' => '+254734000500',
                         'desc' => 'PPE, testing kits & safety equipment',
                         'icon' => 'fas fa-box',
                         'color' => '#417d7c'
@@ -277,7 +277,7 @@
                     [
                         'name' => 'Consultancy Services',
                         'email' => 'info@centox.co.ke',
-                        'phone' => '+254 728 534454',
+                        'phone' => '+254734000500',
                         'desc' => 'Regulatory compliance & expert guidance',
                         'icon' => 'fas fa-comments',
                         'color' => '#529c9b'
@@ -285,7 +285,7 @@
                     [
                         'name' => 'Waste Management',
                         'email' => 'info@centox.co.ke',
-                        'phone' => '+254 728 534454',
+                        'phone' => '+254734000500',
                         'desc' => 'Toxic & hazardous waste disposal',
                         'icon' => 'fas fa-trash-alt',
                         'color' => '#417d7c'
@@ -348,7 +348,7 @@
                             <div class="location-item mb-3">
                                 <h5 style="color: #529c9b;">Contact Information</h5>
                                 <p class="mb-0" style="color: #555;">
-                                    <strong>Phone:</strong> +254 728 534454<br>
+                                    <strong>Phone:</strong> +254734000500<br>
                                     <strong>Email:</strong> info@centox.co.ke<br>
                                     <strong>Website:</strong> www.centox.co.ke
                                 </p>
@@ -436,7 +436,7 @@
                             Still have questions?
                         </p>
                         <p class="mb-0" style="color: #555;">
-                            Call us directly at <strong>+254 728 534454</strong> or email <strong>info@centox.co.ke</strong>
+                            Call us directly at <strong>+254734000500</strong> or email <strong>info@centox.co.ke</strong>
                         </p>
                     </div>
                 </div>

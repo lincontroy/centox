@@ -41,7 +41,7 @@
             <div class="row align-items-center">
                 <div class="col-auto d-flex align-items-center">
                     <div class="header-info"><i class="icon-placeholder2"></i>P.O. Box 105356-00101, Nairobi, Kenya</div>
-                    <div class="header-phone"><i class="icon-telephone"></i><a href="tel:+254728534454">+254 728 534454</a></div>
+                    <div class="header-phone"><i class="icon-telephone"></i><a href="tel:+254728534454">+254734000500</a></div>
                     <div class="header-info"><i class="icon-black-envelope"></i><a href="mailto:info@centox.co.ke">info@centox.co.ke</a></div>
                 </div>
                 <div class="col-auto ml-auto d-flex align-items-center">
@@ -182,7 +182,7 @@
                         <br>
                         <a href="{{ route('contact') }}" class="btn btn-xs btn-gradient"><i class="icon-placeholder2"></i><span>Get Directions</span><i class="icon-right-arrow"></i></a>
                     </li>
-                    <li><i class="icon-telephone"></i><b><span class="phone"><span class="text-nowrap">+254 728 534454</span></span></b>
+                    <li><i class="icon-telephone"></i><b><span class="phone"><span class="text-nowrap">+254734000500</span></span></b>
                         <br>(Emergency & General Inquiries)
                     </li>
                     <li><i class="icon-black-envelope"></i><a href="mailto:info@centox.co.ke">info@centox.co.ke</a></li>
@@ -197,7 +197,7 @@
             <div class="row text-center text-md-left">
                 <div class="col-sm">Copyright © {{ date('Y') }} <a href="{{ route('home') }}">Center of Toxicology and Applied Research</a><span>   |   </span>
                     <a href="#">Privacy Policy</a></div>
-                <div class="col-sm-auto ml-auto"><span class="d-none d-sm-inline">Emergency Hotline   </span><i class="icon-telephone"></i>  <b>+254 728 534454</b></div>
+                <div class="col-sm-auto ml-auto"><span class="d-none d-sm-inline">Emergency Hotline   </span><i class="icon-telephone"></i>  <b>+254734000500</b></div>
             </div>
         </div>
     </div>
