@@ -74,10 +74,10 @@
                         <div class="service-detail-card p-4 h-100">
                             <h4 class="mb-3"><i class="icon icon-pharma mr-2"></i> Pharmaceutical Drug Registration</h4>
                             <ul class="list-unstyled">
-                                <li class="mb-2"><i class="icon-right-arrow mr-2"></i> Regulatory strategy development</li>
-                                <li class="mb-2"><i class="icon-right-arrow mr-2"></i> Toxicology study design and oversight</li>
-                                <li class="mb-2"><i class="icon-right-arrow mr-2"></i> Risk assessment documentation</li>
-                                <li><i class="icon-right-arrow mr-2"></i> Submission preparation and support</li>
+                                <li class="mb-2"><i class="icon-right-arrow mr-2"></i>Application for  Regulatory Approvals</li>
+                                <li class="mb-2"><i class="icon-right-arrow mr-2"></i> Drugs Toxicity studies</li>
+                                <li class="mb-2"><i class="icon-right-arrow mr-2"></i> Risk assessment</li>
+                               
                             </ul>
                         </div>
                     </div>
@@ -116,7 +116,7 @@
                                 <i class="icon icon-medical" style="font-size: 2.5rem; color: #00695C;"></i>
                             </div>
                             <h4>Clinical Toxicology</h4>
-                            <p>Drug testing, poison screening, therapeutic drug monitoring, and biomarker analysis for healthcare applications.</p>
+                            <p>Drug testing, poison screening, therapeutic drug monitoring,Sport testing and biomarker analysis for healthcare applications.</p>
                         </div>
                     </div>
                     
@@ -158,7 +158,7 @@
                 <div class="row">
                     <div class="col-md-6 mb-4">
                         <div class="training-program p-4 h-100">
-                            <h4 class="mb-3"><span class="badge badge-primary mr-2">1</span> Public Health Education</h4>
+                            <h4 class="mb-3">Public Health Education</h4>
                             <ul>
                                 <li>Chemical safety awareness programs</li>
                                 <li>Poison prevention workshops</li>
@@ -170,7 +170,7 @@
                     
                     <div class="col-md-6 mb-4">
                         <div class="training-program p-4 h-100">
-                            <h4 class="mb-3"><span class="badge badge-primary mr-2">2</span> Farmer Training Programs</h4>
+                            <h4 class="mb-3">Farmer Training Programs</h4>
                             <ul>
                                 <li>Safe pesticide handling and storage</li>
                                 <li>Personal protective equipment use</li>
@@ -182,7 +182,7 @@
                     
                     <div class="col-md-6 mb-4">
                         <div class="training-program p-4 h-100">
-                            <h4 class="mb-3"><span class="badge badge-primary mr-2">3</span> Professional Certification</h4>
+                            <h4 class="mb-3"> Professional Certification</h4>
                             <ul>
                                 <li>Industrial hygiene certification</li>
                                 <li>Hazardous materials management</li>
@@ -194,7 +194,7 @@
                     
                     <div class="col-md-6 mb-4">
                         <div class="training-program p-4 h-100">
-                            <h4 class="mb-3"><span class="badge badge-primary mr-2">4</span> Institutional Training</h4>
+                            <h4 class="mb-3">Institutional Training</h4>
                             <ul>
                                 <li>Laboratory safety protocols</li>
                                 <li>Chemical waste management</li>
