@@ -1,49 +1,44 @@
 @extends('layouts.app')
 
-@section('title', 'Our Services - CENTOX')
+@section('title', 'Our Products - CENTOX')
 
 @section('content')
 
 <!-- Page Header -->
-<section class="page-header" style="background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('https://via.placeholder.com/1920x400/00695C/FFFFFF?text=OUR+SERVICES'); background-size: cover; background-position: center; padding: 100px 0;">
+<section class="page-header" style="background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('https://via.placeholder.com/1920x400/00695C/FFFFFF?text=OUR+PRODUCTS'); background-size: cover; background-position: center; padding: 100px 0;">
     <div class="container">
         <div class="row">
             <div class="col-lg-12 text-center text-white">
-                <h1 class="display-4">Our Services</h1>
-                <p class="lead">Comprehensive toxicology solutions for safety and compliance</p>
+                <h1 class="display-4">Our Products</h1>
+                <p class="lead">Premium quality toxicology products for safety, testing, and protection</p>
             </div>
         </div>
     </div>
 </section>
 
-<!-- Services Navigation -->
+<!-- Products Navigation -->
 <section class="section pt-0">
     <div class="container">
-        <div class="services-nav">
-            <ul class="nav nav-pills nav-pills--noborder justify-content-center" id="servicesTab" role="tablist">
+        <div class="products-nav">
+            <ul class="nav nav-pills nav-pills--noborder justify-content-center" id="productsTab" role="tablist">
                 <li class="nav-item">
-                    <a class="nav-link active" id="consultancy-tab" data-toggle="pill" href="#consultancy" role="tab">
-                        <i class="icon icon-consulting mr-2"></i>Consultancy
+                    <a class="nav-link active" id="medical-tab" data-toggle="pill" href="#medical" role="tab">
+                        <i class="icon icon-medical-kit mr-2"></i>Medical Products
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" id="analysis-tab" data-toggle="pill" href="#analysis" role="tab">
-                        <i class="icon icon-microscope mr-2"></i>Analysis
+                    <a class="nav-link" id="chemicals-tab" data-toggle="pill" href="#chemicals" role="tab">
+                        <i class="icon icon-chemistry mr-2"></i>Chemicals
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" id="education-tab" data-toggle="pill" href="#education" role="tab">
-                        <i class="icon icon-book mr-2"></i>Education & Training
+                    <a class="nav-link" id="antidotes-tab" data-toggle="pill" href="#antidotes" role="tab">
+                        <i class="icon icon-first-aid mr-2"></i>Antidotes
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" id="media-tab" data-toggle="pill" href="#media" role="tab">
-                        <i class="icon icon-media mr-2"></i>Media & Advocacy
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" id="waste-tab" data-toggle="pill" href="#waste" role="tab">
-                        <i class="icon icon-waste mr-2"></i>Waste Management
+                    <a class="nav-link" id="ppe-tab" data-toggle="pill" href="#ppe" role="tab">
+                        <i class="icon icon-safety-glasses mr-2"></i>PPE Equipment
                     </a>
                 </li>
             </ul>
@@ -51,238 +46,611 @@
     </div>
 </section>
 
-<!-- Services Content -->
+<!-- Products Content -->
 <section class="section">
     <div class="container">
-        <div class="tab-content" id="servicesTabContent">
+        <div class="tab-content" id="productsTabContent">
             
-            <!-- Consultancy Tab -->
-            <div class="tab-pane fade show active" id="consultancy" role="tabpanel">
+            <!-- Medical Products Tab -->
+            <div class="tab-pane fade show active" id="medical" role="tabpanel">
                 <div class="row align-items-center mb-5">
                     <div class="col-lg-6">
-                        <h2 class="h1 mb-4">Consultancy Services</h2>
-                        <p class="lead">Expert guidance for regulatory compliance and safety optimization</p>
-                        <p>Our consultancy services provide comprehensive support for industries dealing with chemicals and hazardous materials, ensuring compliance with national and international regulations.</p>
+                        <h2 class="h1 mb-4">Medical Products & Gadgets</h2>
+                        <p class="lead">Advanced diagnostic and testing solutions for healthcare and safety</p>
+                        <p>We provide a comprehensive range of non-pharmaceutical medical products, diagnostic kits, and testing equipment designed for accuracy, reliability, and ease of use.</p>
                     </div>
                     <div class="col-lg-6">
-                        <img src="https://via.placeholder.com/600x400/00695C/FFFFFF?text=CONSULTANCY" alt="Consultancy Services" class="img-fluid rounded">
-                    </div>
-                </div>
-                
-                <div class="row mt-4">
-                    <div class="col-md-6 mb-4">
-                        <div class="service-detail-card p-4 h-100">
-                            <h4 class="mb-3"><i class="icon icon-pharma mr-2"></i> Pharmaceutical Drug Registration</h4>
-                            <ul class="list-unstyled">
-                                <li class="mb-2"><i class="icon-right-arrow mr-2"></i> Regulatory strategy development</li>
-                                <li class="mb-2"><i class="icon-right-arrow mr-2"></i> Toxicology study design and oversight</li>
-                                <li class="mb-2"><i class="icon-right-arrow mr-2"></i> Risk assessment documentation</li>
-                                <li><i class="icon-right-arrow mr-2"></i> Submission preparation and support</li>
-                            </ul>
-                        </div>
-                    </div>
-                    
-                    <div class="col-md-6 mb-4">
-                        <div class="service-detail-card p-4 h-100">
-                            <h4 class="mb-3"><i class="icon icon-environment mr-2"></i> Environmental Impact Assessment</h4>
-                            <ul class="list-unstyled">
-                                <li class="mb-2"><i class="icon-right-arrow mr-2"></i> Comprehensive environmental screening</li>
-                                <li class="mb-2"><i class="icon-right-arrow mr-2"></i> Chemical fate and transport modeling</li>
-                                <li class="mb-2"><i class="icon-right-arrow mr-2"></i> Ecological risk assessment</li>
-                                <li><i class="icon-right-arrow mr-2"></i> Mitigation strategy development</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            
-            <!-- Analysis Tab -->
-            <div class="tab-pane fade" id="analysis" role="tabpanel">
-                <div class="row align-items-center mb-5">
-                    <div class="col-lg-6">
-                        <h2 class="h1 mb-4">Analytical Services</h2>
-                        <p class="lead">State-of-the-art toxicological analysis and testing</p>
-                        <p>Our accredited laboratory provides comprehensive analytical services using advanced instrumentation and validated methods for accurate and reliable results.</p>
-                    </div>
-                    <div class="col-lg-6">
-                        <img src="https://via.placeholder.com/600x400/004D40/FFFFFF?text=ANALYTICAL+LAB" alt="Analytical Services" class="img-fluid rounded">
+                        <img src="https://via.placeholder.com/600x400/00695C/FFFFFF?text=MEDICAL+PRODUCTS" alt="Medical Products" class="img-fluid rounded">
                     </div>
                 </div>
                 
                 <div class="row">
-                    <div class="col-md-4 mb-4">
-                        <div class="service-detail-card p-4 h-100 text-center">
-                            <div class="service-icon-lg mb-3">
-                                <i class="icon icon-medical" style="font-size: 2.5rem; color: #00695C;"></i>
+                    <div class="col-md-6 mb-4">
+                        <div class="product-category-card p-4 h-100">
+                            <h4 class="mb-3 text-primary">Drug Testing Kits</h4>
+                            <div class="product-list">
+                                <div class="product-item mb-3">
+                                    <h6 class="font-weight-bold">Rapid Drug Screening Kits</h6>
+                                    <p class="mb-1">Multi-panel drug tests for urine, saliva, and blood samples</p>
+                                    <small class="text-muted">Detects: Opioids, Cocaine, Cannabis, Amphetamines, Benzodiazepines</small>
+                                </div>
+                                <div class="product-item mb-3">
+                                    <h6 class="font-weight-bold">Workplace Drug Testing Kits</h6>
+                                    <p class="mb-1">DOT-compliant testing solutions for employee screening</p>
+                                    <small class="text-muted">Includes collection cups, adulteration tests, temperature strips</small>
+                                </div>
+                                <div class="product-item">
+                                    <h6 class="font-weight-bold">Home Drug Test Kits</h6>
+                                    <p class="mb-1">Easy-to-use kits for personal monitoring and family safety</p>
+                                    <small class="text-muted">Clear instructions, quick results, privacy assured</small>
+                                </div>
                             </div>
-                            <h4>Clinical Toxicology</h4>
-                            <p>Drug testing, poison screening, therapeutic drug monitoring, and biomarker analysis for healthcare applications.</p>
                         </div>
                     </div>
                     
-                    <div class="col-md-4 mb-4">
-                        <div class="service-detail-card p-4 h-100 text-center">
-                            <div class="service-icon-lg mb-3">
-                                <i class="icon icon-forensic" style="font-size: 2.5rem; color: #00695C;"></i>
+                    <div class="col-md-6 mb-4">
+                        <div class="product-category-card p-4 h-100">
+                            <h4 class="mb-3 text-primary">Toxin Detection Kits</h4>
+                            <div class="product-list">
+                                <div class="product-item mb-3">
+                                    <h6 class="font-weight-bold">Aflatoxin Detection Kits</h6>
+                                    <p class="mb-1">ELISA-based kits for food and feed testing</p>
+                                    <small class="text-muted">Detects B1, B2, G1, G2 aflatoxins in grains, nuts, spices</small>
+                                </div>
+                                <div class="product-item mb-3">
+                                    <h6 class="font-weight-bold">Mycotoxin Test Kits</h6>
+                                    <p class="mb-1">Comprehensive kits for various mycotoxin detection</p>
+                                    <small class="text-muted">Ochratoxin, Fumonisin, Zearalenone, DON detection</small>
+                                </div>
+                                <div class="product-item">
+                                    <h6 class="font-weight-bold">Heavy Metal Test Kits</h6>
+                                    <p class="mb-1">Rapid detection for lead, mercury, arsenic, cadmium</p>
+                                    <small class="text-muted">Water, soil, food sample testing capabilities</small>
+                                </div>
                             </div>
-                            <h4>Forensic Toxicology</h4>
-                            <p>Analysis for legal purposes including workplace testing, post-mortem investigations, and substance abuse cases.</p>
                         </div>
                     </div>
                     
-                    <div class="col-md-4 mb-4">
-                        <div class="service-detail-card p-4 h-100 text-center">
-                            <div class="service-icon-lg mb-3">
-                                <i class="icon icon-water" style="font-size: 2.5rem; color: #00695C;"></i>
+                    <div class="col-md-6 mb-4">
+                        <div class="product-category-card p-4 h-100">
+                            <h4 class="mb-3 text-primary">Diagnostic Equipment</h4>
+                            <div class="product-list">
+                                <div class="product-item mb-3">
+                                    <h6 class="font-weight-bold">Portable Analyzers</h6>
+                                    <p>Handheld devices for field analysis and point-of-care testing</p>
+                                </div>
+                                <div class="product-item mb-3">
+                                    <h6 class="font-weight-bold">Spectrophotometers</h6>
+                                    <p>UV-Vis spectrophotometers for laboratory analysis</p>
+                                </div>
+                                <div class="product-item">
+                                    <h6 class="font-weight-bold">Chromatography Systems</h6>
+                                    <p>HPLC and GC systems for advanced toxin analysis</p>
+                                </div>
                             </div>
-                            <h4>Environmental Analysis</h4>
-                            <p>Water, soil, and air quality testing for industrial contaminants, pesticides, and hazardous chemicals.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-6 mb-4">
+                        <div class="product-category-card p-4 h-100">
+                            <h4 class="mb-3 text-primary">Medical Gadgets</h4>
+                            <div class="product-list">
+                                <div class="product-item mb-3">
+                                    <h6 class="font-weight-bold">Digital Monitoring Devices</h6>
+                                    <p>Blood pressure monitors, glucometers, pulse oximeters</p>
+                                </div>
+                                <div class="product-item mb-3">
+                                    <h6 class="font-weight-bold">Emergency Response Kits</h6>
+                                    <p>Poison control kits, chemical exposure first aid kits</p>
+                                </div>
+                                <div class="product-item">
+                                    <h6 class="font-weight-bold">Lab Safety Equipment</h6>
+                                    <p>Biological safety cabinets, fume hoods, autoclaves</p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
             
-            <!-- Education & Training Tab -->
-            <div class="tab-pane fade" id="education" role="tabpanel">
+            <!-- Chemicals Tab -->
+            <div class="tab-pane fade" id="chemicals" role="tabpanel">
                 <div class="row align-items-center mb-5">
                     <div class="col-lg-6">
-                        <h2 class="h1 mb-4">Education & Training</h2>
-                        <p class="lead">Building capacity through specialized toxicology training</p>
-                        <p>We offer comprehensive training programs designed to enhance chemical safety awareness and build technical capacity across various sectors.</p>
+                        <h2 class="h1 mb-4">Chemicals & Reagents</h2>
+                        <p class="lead">High-purity chemicals for industrial, educational, and household applications</p>
+                        <p>We supply a wide range of laboratory chemicals, industrial solvents, and specialized reagents with guaranteed purity and quality assurance.</p>
                     </div>
                     <div class="col-lg-6">
-                        <img src="https://via.placeholder.com/600x400/00796B/FFFFFF?text=TRAINING" alt="Training Programs" class="img-fluid rounded">
+                        <img src="https://via.placeholder.com/600x400/004D40/FFFFFF?text=CHEMICALS+REAGENTS" alt="Chemicals" class="img-fluid rounded">
                     </div>
                 </div>
                 
                 <div class="row">
                     <div class="col-md-6 mb-4">
-                        <div class="training-program p-4 h-100">
-                            <h4 class="mb-3"><span class="badge badge-primary mr-2">1</span> Public Health Education</h4>
-                            <ul>
-                                <li>Chemical safety awareness programs</li>
-                                <li>Poison prevention workshops</li>
-                                <li>Community health initiatives</li>
-                                <li>School-based safety education</li>
-                            </ul>
+                        <div class="product-category-card p-4 h-100">
+                            <h4 class="mb-3 text-primary"><i class="icon icon-industry mr-2"></i> Industrial Chemicals</h4>
+                            <div class="product-list">
+                                <div class="product-item mb-2">
+                                    <h6 class="font-weight-bold">Solvents & Cleaners</h6>
+                                    <p>Acetone, Ethanol, Methanol, Isopropyl alcohol, Industrial cleaners</p>
+                                </div>
+                                <div class="product-item mb-2">
+                                    <h6 class="font-weight-bold">Acids & Bases</h6>
+                                    <p>Sulfuric acid, Hydrochloric acid, Nitric acid, Sodium hydroxide, Ammonia</p>
+                                </div>
+                                <div class="product-item mb-2">
+                                    <h6 class="font-weight-bold">Industrial Catalysts</h6>
+                                    <p>Metal catalysts, Enzyme catalysts, Polymerization catalysts</p>
+                                </div>
+                                <div class="product-item">
+                                    <h6 class="font-weight-bold">Process Chemicals</h6>
+                                    <p>Water treatment chemicals, Textile chemicals, Paint & coating chemicals</p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                     
                     <div class="col-md-6 mb-4">
-                        <div class="training-program p-4 h-100">
-                            <h4 class="mb-3"><span class="badge badge-primary mr-2">2</span> Farmer Training Programs</h4>
-                            <ul>
-                                <li>Safe pesticide handling and storage</li>
-                                <li>Personal protective equipment use</li>
-                                <li>First aid for chemical exposure</li>
-                                <li>Integrated pest management</li>
-                            </ul>
+                        <div class="product-category-card p-4 h-100">
+                            <h4 class="mb-3 text-primary"><i class="icon icon-school mr-2"></i> School & Laboratory Chemicals</h4>
+                            <div class="product-list">
+                                <div class="product-item mb-2">
+                                    <h6 class="font-weight-bold">Educational Chemistry Sets</h6>
+                                    <p>Complete lab kits for schools, colleges, and training institutions</p>
+                                </div>
+                                <div class="product-item mb-2">
+                                    <h6 class="font-weight-bold">Analytical Grade Reagents</h6>
+                                    <p>ACS grade, HPLC grade, Spectroscopic grade chemicals</p>
+                                </div>
+                                <div class="product-item mb-2">
+                                    <h6 class="font-weight-bold">Buffer Solutions</h6>
+                                    <p>pH buffers, Standard solutions, Calibration standards</p>
+                                </div>
+                                <div class="product-item">
+                                    <h6 class="font-weight-bold">Microbiology Media</h6>
+                                    <p>Agar plates, Culture media, Selective media, Enrichment broths</p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                     
                     <div class="col-md-6 mb-4">
-                        <div class="training-program p-4 h-100">
-                            <h4 class="mb-3"><span class="badge badge-primary mr-2">3</span> Professional Certification</h4>
-                            <ul>
-                                <li>Industrial hygiene certification</li>
-                                <li>Hazardous materials management</li>
-                                <li>Chemical safety officer training</li>
-                                <li>Environmental compliance courses</li>
-                            </ul>
+                        <div class="product-category-card p-4 h-100">
+                            <h4 class="mb-3 text-primary"><i class="icon icon-home mr-2"></i> Household Chemicals</h4>
+                            <div class="product-list">
+                                <div class="product-item mb-2">
+                                    <h6 class="font-weight-bold">Cleaning & Sanitization</h6>
+                                    <p>Disinfectants, Bleaches, Detergents, All-purpose cleaners</p>
+                                </div>
+                                <div class="product-item mb-2">
+                                    <h6 class="font-weight-bold">Pest Control Products</h6>
+                                    <p>Insecticides, Rodenticides, Fungicides, Herbicides (safe household grades)</p>
+                                </div>
+                                <div class="product-item">
+                                    <h6 class="font-weight-bold">Maintenance Chemicals</h6>
+                                    <p>Drain cleaners, Rust removers, Water softeners, Pool chemicals</p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                     
                     <div class="col-md-6 mb-4">
-                        <div class="training-program p-4 h-100">
-                            <h4 class="mb-3"><span class="badge badge-primary mr-2">4</span> Institutional Training</h4>
-                            <ul>
-                                <li>Laboratory safety protocols</li>
-                                <li>Chemical waste management</li>
-                                <li>Emergency response planning</li>
-                                <li>Regulatory compliance workshops</li>
-                            </ul>
+                        <div class="product-category-card p-4 h-100">
+                            <h4 class="mb-3 text-primary"><i class="icon icon-lab mr-2"></i> Laboratory Reagents</h4>
+                            <div class="product-list">
+                                <div class="product-item mb-2">
+                                    <h6 class="font-weight-bold">Clinical Chemistry Reagents</h6>
+                                    <p>Enzyme reagents, Substrates, Co-factors, Diagnostic reagents</p>
+                                </div>
+                                <div class="product-item mb-2">
+                                    <h6 class="font-weight-bold">Molecular Biology Reagents</h6>
+                                    <p>PCR reagents, Restriction enzymes, DNA/RNA extraction kits</p>
+                                </div>
+                                <div class="product-item">
+                                    <h6 class="font-weight-bold">Toxicology Testing Reagents</h6>
+                                    <p>ELISA reagents, Chromatography standards, Quality controls</p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
             
-            <!-- Media & Advocacy Tab -->
-            <div class="tab-pane fade" id="media" role="tabpanel">
+            <!-- Antidotes Tab -->
+            <div class="tab-pane fade" id="antidotes" role="tabpanel">
                 <div class="row align-items-center mb-5">
                     <div class="col-lg-6">
-                        <h2 class="h1 mb-4">Media & Advocacy</h2>
-                        <p class="lead">Raising awareness through strategic communication</p>
-                        <p>We leverage media platforms and advocacy campaigns to promote chemical safety awareness and influence policy development.</p>
+                        <h2 class="h1 mb-4">Antidotes & Emergency Treatments</h2>
+                        <p class="lead">Life-saving antidotes for poisoning emergencies and toxic exposures</p>
+                        <p>We supply essential antidotes and emergency treatments for hospitals, clinics, poison control centers, and industrial facilities.</p>
                     </div>
                     <div class="col-lg-6">
-                        <img src="https://via.placeholder.com/600x400/00695C/FFFFFF?text=MEDIA+ADVOCACY" alt="Media Advocacy" class="img-fluid rounded">
+                        <img src="https://via.placeholder.com/600x400/00796B/FFFFFF?text=ANTIDOTES+TREATMENTS" alt="Antidotes" class="img-fluid rounded">
                     </div>
                 </div>
                 
                 <div class="row">
                     <div class="col-md-6 mb-4">
-                        <div class="media-card p-4 h-100">
-                            <h4 class="mb-3">Social Media Campaigns</h4>
-                            <p>Engaging digital content to reach diverse audiences with safety messages:</p>
-                            <ul>
-                                <li>Weekly safety tips</li>
-                                <li>Infographics on chemical hazards</li>
-                                <li>Live Q&A sessions with experts</li>
-                                <li>Success stories and case studies</li>
-                            </ul>
+                        <div class="product-category-card p-4 h-100">
+                            <h4 class="mb-3 text-danger"><i class="icon icon-pills mr-2"></i> Pharmaceutical Antidotes</h4>
+                            <div class="product-list">
+                                <div class="product-item mb-3">
+                                    <h6 class="font-weight-bold">Naloxone HCl</h6>
+                                    <p class="mb-1">Opioid overdose reversal agent</p>
+                                    <small class="text-muted">Available in injectable and nasal spray formulations</small>
+                                </div>
+                                <div class="product-item mb-3">
+                                    <h6 class="font-weight-bold">Atropine Sulfate</h6>
+                                    <p class="mb-1">Organophosphate and carbamate poisoning</p>
+                                    <small class="text-muted">Auto-injectors and ampoules available</small>
+                                </div>
+                                <div class="product-item">
+                                    <h6 class="font-weight-bold">Flumazenil</h6>
+                                    <p class="mb-1">Benzodiazepine overdose reversal</p>
+                                    <small class="text-muted">Injectable formulation for emergency use</small>
+                                </div>
+                            </div>
                         </div>
                     </div>
                     
                     <div class="col-md-6 mb-4">
-                        <div class="media-card p-4 h-100">
-                            <h4 class="mb-3">Public Awareness Programs</h4>
-                            <p>Comprehensive outreach initiatives:</p>
-                            <ul>
-                                <li>National chemical safety week</li>
-                                <li>Community workshops and seminars</li>
-                                <li>School outreach programs</li>
-                                <li>Industry roundtable discussions</li>
-                            </ul>
+                        <div class="product-category-card p-4 h-100">
+                            <h4 class="mb-3 text-danger"><i class="icon icon-chemical-burn mr-2"></i> Chemical Exposure Antidotes</h4>
+                            <div class="product-list">
+                                <div class="product-item mb-3">
+                                    <h6 class="font-weight-bold">Dimercaprol (BAL)</h6>
+                                    <p class="mb-1">Heavy metal poisoning (arsenic, mercury, lead)</p>
+                                    <small class="text-muted">Oil-based injectable preparation</small>
+                                </div>
+                                <div class="product-item mb-3">
+                                    <h6 class="font-weight-bold">Sodium Thiosulfate</h6>
+                                    <p class="mb-1">Cyanide and cisplatin poisoning</p>
+                                    <small class="text-muted">IV infusion and topical formulations</small>
+                                </div>
+                                <div class="product-item">
+                                    <h6 class="font-weight-bold">Methylene Blue</h6>
+                                    <p class="mb-1">Methemoglobinemia treatment</p>
+                                    <small class="text-muted">For drug-induced and chemical-induced conditions</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-6 mb-4">
+                        <div class="product-category-card p-4 h-100">
+                            <h4 class="mb-3 text-danger"><i class="icon icon-snake mr-2"></i> Biological Toxin Antidotes</h4>
+                            <div class="product-list">
+                                <div class="product-item mb-3">
+                                    <h6 class="font-weight-bold">Snake Antivenom</h6>
+                                    <p class="mb-1">Polyvalent antivenom for multiple snake species</p>
+                                    <small class="text-muted">Region-specific formulations available</small>
+                                </div>
+                                <div class="product-item mb-3">
+                                    <h6 class="font-weight-bold">Scorpion Antivenom</h6>
+                                    <p class="mb-1">For dangerous scorpion species</p>
+                                    <small class="text-muted">Liquid and lyophilized formulations</small>
+                                </div>
+                                <div class="product-item">
+                                    <h6 class="font-weight-bold">Spider Antivenom</h6>
+                                    <p class="mb-1">For widow and recluse spider bites</p>
+                                    <small class="text-muted">Available in emergency treatment kits</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-6 mb-4">
+                        <div class="product-category-card p-4 h-100">
+                            <h4 class="mb-3 text-danger"><i class="icon icon-emergency-kit mr-2"></i> Emergency Treatment Kits</h4>
+                            <div class="product-list">
+                                <div class="product-item mb-3">
+                                    <h6 class="font-weight-bold">Poison Treatment Kits</h6>
+                                    <p class="mb-1">Comprehensive kits for common poisonings</p>
+                                    <small class="text-muted">Includes antidotes, syringes, and administration guides</small>
+                                </div>
+                                <div class="product-item mb-3">
+                                    <h6 class="font-weight-bold">Industrial First Response Kits</h6>
+                                    <p class="mb-1">For chemical plant and laboratory emergencies</p>
+                                    <small class="text-muted">Specific to common industrial toxins</small>
+                                </div>
+                                <div class="product-item">
+                                    <h6 class="font-weight-bold">Field Emergency Kits</h6>
+                                    <p class="mb-1">Portable kits for agricultural and remote settings</p>
+                                    <small class="text-muted">Thermostable formulations for tropical conditions</small>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
             
-            <!-- Waste Management Tab -->
-            <div class="tab-pane fade" id="waste" role="tabpanel">
+            <!-- PPE Equipment Tab -->
+            <div class="tab-pane fade" id="ppe" role="tabpanel">
                 <div class="row align-items-center mb-5">
                     <div class="col-lg-6">
-                        <h2 class="h1 mb-4">Toxic Waste Management</h2>
-                        <p class="lead">Safe and compliant waste handling solutions</p>
-                        <p>Comprehensive toxic waste management services ensuring environmental protection and regulatory compliance.</p>
+                        <h2 class="h1 mb-4">Personal Protective Equipment</h2>
+                        <p class="lead">Complete protection solutions for workplace safety and hazard management</p>
+                        <p>We offer a comprehensive range of PPE designed to protect against chemical, biological, physical, and environmental hazards.</p>
                     </div>
                     <div class="col-lg-6">
-                        <img src="https://via.placeholder.com/600x400/004D40/FFFFFF?text=WASTE+MANAGEMENT" alt="Waste Management" class="img-fluid rounded">
+                        <img src="https://via.placeholder.com/600x400/004D40/FFFFFF?text=PPE+EQUIPMENT" alt="PPE Equipment" class="img-fluid rounded">
                     </div>
                 </div>
                 
                 <div class="row">
-                    <div class="col-md-6 mb-4">
-                        <div class="waste-card p-4 h-100">
-                            <h4 class="mb-3"><i class="icon icon-safety-gloves mr-2"></i> Safe Handling</h4>
-                            <ul>
-                                <li>Waste characterization and classification</li>
-                                <li>Proper storage and labeling protocols</li>
-                                <li>Spill prevention and control</li>
-                                <li>Employee training and certification</li>
-                            </ul>
+                    <!-- Head Protection -->
+                    <div class="col-md-6 col-lg-4 mb-4">
+                        <div class="ppe-category-card p-4 h-100 text-center">
+                            <div class="ppe-icon mb-3">
+                                <i class="icon icon-helmet" style="font-size: 3rem; color: #00695C;"></i>
+                            </div>
+                            <h4 class="mb-3">Head Protection</h4>
+                            <div class="ppe-list text-left">
+                                <div class="ppe-item mb-2">
+                                    <h6 class="font-weight-bold">Safety Helmets</h6>
+                                    <small>Industrial hard hats with chin straps</small>
+                                </div>
+                                <div class="ppe-item mb-2">
+                                    <h6 class="font-weight-bold">Bump Caps</h6>
+                                    <small>Lightweight head protection for low-risk areas</small>
+                                </div>
+                                <div class="ppe-item">
+                                    <h6 class="font-weight-bold">Hair Nets & Caps</h6>
+                                    <small>Disposable caps for cleanroom environments</small>
+                                </div>
+                            </div>
                         </div>
                     </div>
                     
-                    <div class="col-md-6 mb-4">
-                        <div class="waste-card p-4 h-100">
-                            <h4 class="mb-3"><i class="icon icon-recycle mr-2"></i> Disposal & Compliance</h4>
-                            <ul>
-                                <li>Environmentally sound disposal methods</li>
-                                <li>Transportation and manifest systems</li>
-                                <li>Regulatory documentation and reporting</li>
-                                <li>Audit preparation and support</li>
-                            </ul>
+                    <!-- Eye & Face Protection -->
+                    <div class="col-md-6 col-lg-4 mb-4">
+                        <div class="ppe-category-card p-4 h-100 text-center">
+                            <div class="ppe-icon mb-3">
+                                <i class="icon icon-safety-glasses" style="font-size: 3rem; color: #00695C;"></i>
+                            </div>
+                            <h4 class="mb-3">Eye & Face Protection</h4>
+                            <div class="ppe-list text-left">
+                                <div class="ppe-item mb-2">
+                                    <h6 class="font-weight-bold">Safety Glasses</h6>
+                                    <small>Anti-fog, UV protection, side shields</small>
+                                </div>
+                                <div class="ppe-item mb-2">
+                                    <h6 class="font-weight-bold">Chemical Goggles</h6>
+                                    <small>Splash-proof, indirect vented</small>
+                                </div>
+                                <div class="ppe-item mb-2">
+                                    <h6 class="font-weight-bold">Face Shields</h6>
+                                    <small>Full-face protection for welding, chemicals</small>
+                                </div>
+                                <div class="ppe-item">
+                                    <h6 class="font-weight-bold">Welding Masks</h6>
+                                    <small>Auto-darkening, fixed shade</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Hearing Protection -->
+                    <div class="col-md-6 col-lg-4 mb-4">
+                        <div class="ppe-category-card p-4 h-100 text-center">
+                            <div class="ppe-icon mb-3">
+                                <i class="icon icon-ear-protection" style="font-size: 3rem; color: #00695C;"></i>
+                            </div>
+                            <h4 class="mb-3">Hearing Protection</h4>
+                            <div class="ppe-list text-left">
+                                <div class="ppe-item mb-2">
+                                    <h6 class="font-weight-bold">Disposable Earplugs</h6>
+                                    <small>Foam, silicone, corded options</small>
+                                </div>
+                                <div class="ppe-item mb-2">
+                                    <h6 class="font-weight-bold">Reusable Earplugs</h6>
+                                    <small>Flanged, custom-molded</small>
+                                </div>
+                                <div class="ppe-item">
+                                    <h6 class="font-weight-bold">Earmuffs</h6>
+                                    <small>Electronic, communication-enabled</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Respiratory Protection -->
+                    <div class="col-md-6 col-lg-4 mb-4">
+                        <div class="ppe-category-card p-4 h-100 text-center">
+                            <div class="ppe-icon mb-3">
+                                <i class="icon icon-respirator" style="font-size: 3rem; color: #00695C;"></i>
+                            </div>
+                            <h4 class="mb-3">Respiratory Protection</h4>
+                            <div class="ppe-list text-left">
+                                <div class="ppe-item mb-2">
+                                    <h6 class="font-weight-bold">Disposable Masks</h6>
+                                    <small>N95, N99, N100 respirators</small>
+                                </div>
+                                <div class="ppe-item mb-2">
+                                    <h6 class="font-weight-bold">Half/Full Face Respirators</h6>
+                                    <small>With cartridges for specific hazards</small>
+                                </div>
+                                <div class="ppe-item mb-2">
+                                    <h6 class="font-weight-bold">SCBA Systems</h6>
+                                    <small>Self-contained breathing apparatus</small>
+                                </div>
+                                <div class="ppe-item">
+                                    <h6 class="font-weight-bold">Gas Masks</h6>
+                                    <small>Military grade, industrial grade</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Hand Protection -->
+                    <div class="col-md-6 col-lg-4 mb-4">
+                        <div class="ppe-category-card p-4 h-100 text-center">
+                            <div class="ppe-icon mb-3">
+                                <i class="icon icon-gloves" style="font-size: 3rem; color: #00695C;"></i>
+                            </div>
+                            <h4 class="mb-3">Hand Protection</h4>
+                            <div class="ppe-list text-left">
+                                <div class="ppe-item mb-2">
+                                    <h6 class="font-weight-bold">Chemical Resistant Gloves</h6>
+                                    <small>Nitrile, latex, neoprene, butyl rubber</small>
+                                </div>
+                                <div class="ppe-item mb-2">
+                                    <h6 class="font-weight-bold">Cut Resistant Gloves</h6>
+                                    <small>Kevlar, stainless steel mesh</small>
+                                </div>
+                                <div class="ppe-item mb-2">
+                                    <h6 class="font-weight-bold">Heat Resistant Gloves</h6>
+                                    <small>Welding gloves, oven mitts</small>
+                                </div>
+                                <div class="ppe-item">
+                                    <h6 class="font-weight-bold">Disposable Gloves</h6>
+                                    <small>Powder-free, sterile, non-sterile</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Body Protection -->
+                    <div class="col-md-6 col-lg-4 mb-4">
+                        <div class="ppe-category-card p-4 h-100 text-center">
+                            <div class="ppe-icon mb-3">
+                                <i class="icon icon-protective-suit" style="font-size: 3rem; color: #00695C;"></i>
+                            </div>
+                            <h4 class="mb-3">Body Protection</h4>
+                            <div class="ppe-list text-left">
+                                <div class="ppe-item mb-2">
+                                    <h6 class="font-weight-bold">Chemical Suits</h6>
+                                    <small>Level A, B, C protection</small>
+                                </div>
+                                <div class="ppe-item mb-2">
+                                    <h6 class="font-weight-bold">Flame Resistant Clothing</h6>
+                                    <small>Coveralls, jackets, pants</small>
+                                </div>
+                                <div class="ppe-item mb-2">
+                                    <h6 class="font-weight-bold">High-Visibility Vests</h6>
+                                    <small>Class 2, Class 3 reflective vests</small>
+                                </div>
+                                <div class="ppe-item">
+                                    <h6 class="font-weight-bold">Lab Coats & Aprons</h6>
+                                    <small>Flame-resistant, chemical-resistant</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Foot Protection -->
+                    <div class="col-md-6 col-lg-6 mb-4">
+                        <div class="ppe-category-card p-4 h-100 text-center">
+                            <div class="ppe-icon mb-3">
+                                <i class="icon icon-safety-boots" style="font-size: 3rem; color: #00695C;"></i>
+                            </div>
+                            <h4 class="mb-3">Foot Protection</h4>
+                            <div class="ppe-list text-left">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="ppe-item mb-2">
+                                            <h6 class="font-weight-bold">Steel Toe Boots</h6>
+                                            <small>Waterproof, electrical hazard rated</small>
+                                        </div>
+                                        <div class="ppe-item">
+                                            <h6 class="font-weight-bold">Chemical Resistant Boots</h6>
+                                            <small>Neoprene, PVC, rubber boots</small>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="ppe-item mb-2">
+                                            <h6 class="font-weight-bold">Anti-static Shoes</h6>
+                                            <small>For electronics and cleanrooms</small>
+                                        </div>
+                                        <div class="ppe-item">
+                                            <h6 class="font-weight-bold">Disposable Shoe Covers</h6>
+                                            <small>For cleanroom and sterile areas</small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Fall Protection -->
+                    <div class="col-md-6 col-lg-6 mb-4">
+                        <div class="ppe-category-card p-4 h-100 text-center">
+                            <div class="ppe-icon mb-3">
+                                <i class="icon icon-harness" style="font-size: 3rem; color: #00695C;"></i>
+                            </div>
+                            <h4 class="mb-3">Fall Protection</h4>
+                            <div class="ppe-list text-left">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="ppe-item mb-2">
+                                            <h6 class="font-weight-bold">Safety Harnesses</h6>
+                                            <small>Full body, chest harnesses</small>
+                                        </div>
+                                        <div class="ppe-item">
+                                            <h6 class="font-weight-bold">Lanyards</h6>
+                                            <small>Shock-absorbing, retractable</small>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="ppe-item mb-2">
+                                            <h6 class="font-weight-bold">Anchor Points</h6>
+                                            <small>Portable, permanent anchors</small>
+                                        </div>
+                                        <div class="ppe-item">
+                                            <h6 class="font-weight-bold">Rescue Equipment</h6>
+                                            <small>Tripods, winches, descent devices</small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- PPE Selection Guide -->
+                <div class="row mt-5">
+                    <div class="col-12">
+                        <div class="ppe-guide-card p-4">
+                            <h4 class="mb-4 text-center">PPE Selection Guide</h4>
+                            <div class="table-responsive">
+                                <table class="table table-bordered">
+                                    <thead class="thead-dark">
+                                        <tr>
+                                            <th>Hazard Type</th>
+                                            <th>Recommended PPE</th>
+                                            <th>Standards Compliance</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>Chemical Splash</td>
+                                            <td>Chemical goggles, face shield, chemical suit, gloves</td>
+                                            <td>ANSI Z87.1, EN 166</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Particulate Matter</td>
+                                            <td>N95/N99 respirator, safety glasses, coveralls</td>
+                                            <td>NIOSH 42 CFR 84</td>
+                                        </tr>
+                                        <tr>
+                                            <td>High Temperature</td>
+                                            <td>Heat resistant gloves, face shield, aluminized clothing</td>
+                                            <td>EN 407, EN 12477</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Electrical Hazards</td>
+                                            <td>Electrical hazard boots, insulated gloves, face shield</td>
+                                            <td>ASTM F2413, EN 50365</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Biological Agents</td>
+                                            <td>Full face respirator, disposable coveralls, shoe covers</td>
+                                            <td>EN 14126, ISO 16604</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -291,19 +659,61 @@
         
         <!-- CTA Section -->
         <div class="text-center mt-5 pt-5">
-            <h3 class="h2 mb-4">Need Our Services?</h3>
-            <p class="lead mb-4">Contact us for a consultation or request a quote</p>
-            <a href="{{ route('contact') }}" class="btn btn-primary btn-lg mr-3">Contact Us</a>
-            <button class="btn btn-outline-primary btn-lg" data-toggle="modal" data-target="#modalContactForm">Request Quote</button>
+            <h3 class="h2 mb-4">Request Product Information</h3>
+            <p class="lead mb-4">Get detailed specifications, pricing, and safety data sheets</p>
+            <div class="d-flex flex-wrap justify-content-center gap-3">
+                <a href="{{ route('contact') }}" class="btn btn-primary btn-lg">Contact Sales</a>
+                <button class="btn btn-outline-primary btn-lg" data-toggle="modal" data-target="#productCatalogModal">Download Catalog</button>
+                <button class="btn btn-success btn-lg" data-toggle="modal" data-target="#requestQuoteModal">Request Quote</button>
+            </div>
         </div>
     </div>
 </section>
+
+<!-- Modal for Product Catalog -->
+<div class="modal fade" id="productCatalogModal" tabindex="-1" role="dialog">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Download Product Catalog</h5>
+                <button type="button" class="close" data-dismiss="modal">
+                    <span>&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <p>Please provide your details to download our complete product catalog:</p>
+                <form id="catalogForm">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Full Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" class="form-control" placeholder="Email Address" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Company/Organization">
+                    </div>
+                    <div class="form-group">
+                        <select class="form-control" required>
+                            <option value="">Interested In</option>
+                            <option>Medical Products</option>
+                            <option>Chemicals</option>
+                            <option>Antidotes</option>
+                            <option>PPE Equipment</option>
+                            <option>All Products</option>
+                        </select>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-block">Download Catalog</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
 
 @endsection
 
 @push('styles')
 <style>
-    .services-nav .nav-link {
+    .products-nav .nav-link {
         padding: 15px 25px;
         margin: 0 5px;
         border-radius: 30px;
@@ -311,26 +721,59 @@
         transition: all 0.3s ease;
     }
     
-    .services-nav .nav-link.active {
+    .products-nav .nav-link.active {
         background: linear-gradient(135deg, #00695C 0%, #004D40 100%);
         color: white;
     }
     
-    .service-detail-card, .training-program, .media-card, .waste-card {
+    .product-category-card, .ppe-category-card, .ppe-guide-card {
         background: white;
         border-radius: 10px;
         box-shadow: 0 5px 15px rgba(0,0,0,0.05);
         border-top: 4px solid #00695C;
+        transition: transform 0.3s ease;
     }
     
-    .service-icon-lg {
+    .product-category-card:hover, .ppe-category-card:hover {
+        transform: translateY(-5px);
+    }
+    
+    .ppe-category-card {
+        height: 100%;
+    }
+    
+    .ppe-icon {
         display: inline-flex;
         align-items: center;
         justify-content: center;
-        width: 70px;
-        height: 70px;
+        width: 80px;
+        height: 80px;
         background: rgba(0,105,92,0.1);
         border-radius: 50%;
+        margin: 0 auto;
+    }
+    
+    .product-item, .ppe-item {
+        padding-bottom: 10px;
+        border-bottom: 1px solid #eee;
+        margin-bottom: 10px;
+    }
+    
+    .product-item:last-child, .ppe-item:last-child {
+        border-bottom: none;
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
+    
+    .ppe-guide-card {
+        background: #f8f9fa;
+        border-left: 5px solid #00695C;
+    }
+    
+    .table th {
+        background-color: #00695C;
+        color: white;
+        border-color: #004D40;
     }
 </style>
 @endpush
@@ -346,6 +789,23 @@
         // Update URL hash when tab changes
         $('a[data-toggle="pill"]').on('shown.bs.tab', function(e) {
             window.location.hash = e.target.hash;
+        });
+        
+        // Handle catalog form submission
+        $('#catalogForm').on('submit', function(e) {
+            e.preventDefault();
+            // Here you would typically send the data to your server
+            alert('Thank you! The catalog download link has been sent to your email.');
+            $('#productCatalogModal').modal('hide');
+            $(this).trigger('reset');
+        });
+        
+        // Show more PPE items on click (optional enhancement)
+        $('.show-more-ppe').on('click', function() {
+            $(this).closest('.ppe-list').find('.additional-item').toggleClass('d-none');
+            $(this).text(function(i, text) {
+                return text === 'Show More' ? 'Show Less' : 'Show More';
+            });
         });
     });
 </script>
