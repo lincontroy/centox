@@ -5,7 +5,7 @@
 @section('content')
 
 <!-- Page Header -->
-<section class="page-header" style="background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('https://via.placeholder.com/1920x400/00695C/FFFFFF?text=ABOUT+CENTOX'); background-size: cover; background-position: center; padding: 100px 0;">
+<section class="page-header" style="background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('h12.png'); background-size: cover; background-position: center; padding: 100px 0;">
     <div class="container">
         <div class="row">
             <div class="col-lg-12 text-center text-white">
@@ -137,55 +137,6 @@
     </div>
 </section>
 
-<!-- Team Section -->
-<section class="section bg-light">
-    <div class="container">
-        <div class="text-center mb-5">
-            <h2 class="h1 mb-3">Our Leadership</h2>
-            <p class="lead">Experienced professionals in toxicology and environmental science</p>
-            <div class="h-decor"></div>
-        </div>
-        
-        <div class="row">
-            <div class="col-md-4 mb-4">
-                <div class="team-card text-center">
-                    <img src="https://via.placeholder.com/300x300/00695C/FFFFFF?text=DR.+JANE+SMITH" alt="Dr. Jane Smith" class="img-fluid rounded-circle mb-3">
-                    <h4>Dr. Jane Smith</h4>
-                    <p class="text-muted">Director of Toxicology Research</p>
-                    <p>PhD in Environmental Toxicology with 20+ years of experience in chemical risk assessment.</p>
-                </div>
-            </div>
-            
-            <div class="col-md-4 mb-4">
-                <div class="team-card text-center">
-                    <img src="https://via.placeholder.com/300x300/004D40/FFFFFF?text=DR.+JOHN+DOE" alt="Dr. John Doe" class="img-fluid rounded-circle mb-3">
-                    <h4>Dr. John Doe</h4>
-                    <p class="text-muted">Head of Analytical Services</p>
-                    <p>Expert in forensic toxicology and analytical method development for chemical detection.</p>
-                </div>
-            </div>
-            
-            <div class="col-md-4 mb-4">
-                <div class="team-card text-center">
-                    <img src="https://via.placeholder.com/300x300/00796B/FFFFFF?text=DR.+SARAH+WONG" alt="Dr. Sarah Wong" class="img-fluid rounded-circle mb-3">
-                    <h4>Dr. Sarah Wong</h4>
-                    <p class="text-muted">Environmental Safety Director</p>
-                    <p>Specialist in environmental impact assessment and sustainable waste management.</p>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<!-- CTA Section -->
-<section class="section bg-gradient text-white" style="background: linear-gradient(135deg, #00695C 0%, #004D40 100%);">
-    <div class="container text-center">
-        <h2 class="h1 mb-4">Partner With Us for Safety</h2>
-        <p class="lead mb-4">Join us in creating safer environments through scientific excellence and collaboration</p>
-        <a href="{{ route('contact') }}" class="btn btn-light btn-lg mr-3">Contact Us</a>
-        <a href="{{ route('services') }}" class="btn btn-outline-light btn-lg">Our Services</a>
-    </div>
-</section>
 
 @endsection
 

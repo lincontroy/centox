@@ -44,56 +44,83 @@
 					</column>
 				</div>
 			</div>
-			<div class="main-slider mb-0 arrows-white arrows-bottom" id="mainSlider" data-slick="{" arrows":="" false,="" "dots":="" true}"="">
-				<div class="slide">
-					<div class="img--holder" data-bg="h6.jpg"></div>
-					<div class="slide-content center">
-						<div class="vert-wrap container">
-							<div class="vert">
-								<div class="container">
-									<div class="slide-txt1 text-no-uppercase" data-animation="fadeInDown" data-animation-delay="1s">Leading the Way<br>
-										<b>in Laboratory Research</b></div>
-									<div class="slide-txt2 text-no-uppercase" data-animation="fadeInUp" data-animation-delay="1.5s">Advanced medicine. Compassionate care</div>
-									<div class="slide-btn"><a href="/services" class="btn link-inside" data-animation="fadeInUp" data-animation-delay="2s"><i class="icon-right-arrow"></i><span>Explore our services</span><i class="icon-right-arrow"></i></a></div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="slide">
-					<div class="img--holder" data-bg="h7.jpg"></div>
-					<div class="slide-content center">
-						<div class="vert-wrap container">
-							<div class="vert">
-								<div class="container">
-									<div class="slide-txt1 text-no-uppercase" data-animation="fadeInDown" data-animation-delay="1s">We Provide
-										<br><b>Consultancy Services!</b></div>
-									<div class="slide-txt2 text-no-uppercase" data-animation="fadeInUp" data-animation-delay="1.5s">Expert guidance for regulatory compliance and safety optimization</div>
-									<div class="slide-btn"><a href="/services" class="btn link-inside" data-animation="fadeInUp" data-animation-delay="2s"><i class="icon-right-arrow"></i><span>Know more</span><i class="icon-right-arrow"></i></a></div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="slide">
-					<div class="img--holder" data-bg="h6.png"></div>
-					<div class="slide-content center">
-						<div class="vert-wrap container">
-							<div class="vert">
-								<div class="container">
-									<div class="slide-txt1 text-no-uppercase" data-animation="fadeInDown" data-animation-delay="1s">We Provide
-										<br><b>Analytical Services!</b></div>
-									<div class="slide-txt2 text-no-uppercase" data-animation="fadeInUp" data-animation-delay="1.5s">State-of-the-art toxicological analysis and testing
-
-                                    </div>
-									<div class="slide-btn"><a href="/services#analysis" class="btn link-inside" data-animation="fadeInUp" data-animation-delay="2s"><i class="icon-right-arrow"></i><span>Know more</span><i class="icon-right-arrow"></i></a></div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-
+            <div class="main-slider mb-0 arrows-white arrows-bottom" id="mainSlider" data-slick='{"arrows": false, "dots": true}'>
+                <div class="slide">
+                    <div class="img--holder" data-bg="h9.png" style="background-position: center top;"></div>
+                    <div class="slide-content center">
+                        <div class="vert-wrap container">
+                            <div class="vert">
+                                <div class="container">
+                                    <div class="slide-txt1 text-no-uppercase" data-animation="fadeInDown" data-animation-delay="1s">Leading the Way<br>
+                                        <b>in Laboratory Research</b></div>
+                                    <div class="slide-txt2 text-no-uppercase" data-animation="fadeInUp" data-animation-delay="1.5s">Advanced medicine. Compassionate care</div>
+                                    <div class="slide-btn"><a href="/services" class="btn link-inside" data-animation="fadeInUp" data-animation-delay="2s"><i class="icon-right-arrow"></i><span>Explore our services</span><i class="icon-right-arrow"></i></a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="slide">
+                    <div class="img--holder" data-bg="h10.png" style="background-position: center top;"></div>
+                    <div class="slide-content center">
+                        <div class="vert-wrap container">
+                            <div class="vert">
+                                <div class="container">
+                                    <div class="slide-txt1 text-no-uppercase" data-animation="fadeInDown" data-animation-delay="1s">We Provide
+                                        <br><b>Consultancy Services!</b></div>
+                                    <div class="slide-txt2 text-no-uppercase" data-animation="fadeInUp" data-animation-delay="1.5s">Expert guidance for regulatory compliance and safety optimization</div>
+                                    <div class="slide-btn"><a href="/services" class="btn link-inside" data-animation="fadeInUp" data-animation-delay="2s"><i class="icon-right-arrow"></i><span>Know more</span><i class="icon-right-arrow"></i></a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="slide">
+                    <div class="img--holder" data-bg="h11.png" style="background-position: center top;"></div>
+                    <div class="slide-content center">
+                        <div class="vert-wrap container">
+                            <div class="vert">
+                                <div class="container">
+                                    <div class="slide-txt1 text-no-uppercase" data-animation="fadeInDown" data-animation-delay="1s">We Provide
+                                        <br><b>Analytical Services!</b></div>
+                                    <div class="slide-txt2 text-no-uppercase" data-animation="fadeInUp" data-animation-delay="1.5s">State-of-the-art toxicological analysis and testing</div>
+                                    <div class="slide-btn"><a href="/services#analysis" class="btn link-inside" data-animation="fadeInUp" data-animation-delay="2s"><i class="icon-right-arrow"></i><span>Know more</span><i class="icon-right-arrow"></i></a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="slide">
+                    <div class="img--holder" data-bg="h12.png" style="background-position: center top;"></div>
+                    <div class="slide-content center">
+                        <div class="vert-wrap container">
+                            <div class="vert">
+                                <div class="container">
+                                    <div class="slide-txt1 text-no-uppercase" data-animation="fadeInDown" data-animation-delay="1s">We Provide
+                                        <br><b>Education & Training</b></div>
+                                    <div class="slide-txt2 text-no-uppercase" data-animation="fadeInUp" data-animation-delay="1.5s">Building capacity through specialized toxicology training</div>
+                                    <div class="slide-btn"><a href="/services#analysis" class="btn link-inside" data-animation="fadeInUp" data-animation-delay="2s"><i class="icon-right-arrow"></i><span>Know more</span><i class="icon-right-arrow"></i></a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="slide">
+                    <div class="img--holder" data-bg="h13.png" style="background-position: center top;"></div>
+                    <div class="slide-content center">
+                        <div class="vert-wrap container">
+                            <div class="vert">
+                                <div class="container">
+                                    <div class="slide-txt1 text-no-uppercase" data-animation="fadeInDown" data-animation-delay="1s">We Provide
+                                        <br><b>Quality Products</b></div>
+                                    <div class="slide-txt2 text-no-uppercase" data-animation="fadeInUp" data-animation-delay="1.5s">Premium quality toxicology products for safety, testing, and protection</div>
+                                    <div class="slide-btn"><a href="/services#analysis" class="btn link-inside" data-animation="fadeInUp" data-animation-delay="2s"><i class="icon-right-arrow"></i><span>Know more</span><i class="icon-right-arrow"></i></a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
             <style>
                 .slide-content {
     position: relative;
@@ -412,7 +439,7 @@
                 <div class="features-grid mt-4">
                     <div class="feature-item">
                         <div class="feature-icon">
-                            <i class="icon-science"></i>
+                            <i class="fas fa-flask text-purple-500 text-xl"></i>
                         </div>
                         <div class="feature-content">
                             <h5>Advanced Research</h5>
@@ -421,7 +448,7 @@
                     </div>
                     <div class="feature-item">
                         <div class="feature-icon">
-                            <i class="icon-safety"></i>
+                            <i class="fas fa-shield-alt text-blue-500 text-xl"></i>
                         </div>
                         <div class="feature-content">
                             <h5>Safety Compliance</h5>
@@ -430,7 +457,7 @@
                     </div>
                     <div class="feature-item">
                         <div class="feature-icon">
-                            <i class="icon-training"></i>
+                            <i class="fas fa-graduation-cap text-green-500 text-xl"></i>
                         </div>
                         <div class="feature-content">
                             <h5>Expert Training</h5>
@@ -439,7 +466,7 @@
                     </div>
                     <div class="feature-item">
                         <div class="feature-icon">
-                            <i class="icon-innovation"></i>
+                            <i class="fas fa-lightbulb text-yellow-500 text-xl"></i>
                         </div>
                         <div class="feature-content">
                             <h5>Innovative Solutions</h5>
@@ -447,7 +474,6 @@
                         </div>
                     </div>
                 </div>
-                
                 <div class="mt-4">
                     <a href="{{ route('about') }}" class="btn btn-primary">Learn More About Us</a>
                 </div>
@@ -605,7 +631,7 @@
                     <h6>Manufacturing</h6>
                 </div>
             </div>
-            <div class="col-md-4 col-lg-2 mb-4">
+            <div class="col-md-6 col-lg-3 mb-4">
                 <div class="industry-card text-center">
                     <div class="industry-icon">
                         <i class="icon-pharmaceutical"></i>
@@ -858,23 +884,6 @@
     </div>
 </section>
 
-<!-- Emergency Contact Banner -->
-<section class="emergency-banner py-5" style="background: linear-gradient(135deg, #529c9b 0%, #417d7c 100%);">
-    <div class="container">
-        <div class="row align-items-center">
-            <div class="col-lg-8 text-white">
-                <h3 class="h2 mb-3"><i class="icon-alert"></i> 24/7 Emergency Toxicology Response</h3>
-                <p class="mb-0">Immediate assistance for chemical exposure incidents, spills, and toxic emergencies</p>
-            </div>
-            <div class="col-lg-4 text-lg-right mt-3 mt-lg-0">
-                <a href="tel:+254728534454" class="btn btn-light btn-lg">
-                    <i class="icon-telephone mr-2"></i> +254 728 534454
-                </a>
-            </div>
-        </div>
-    </div>
-</section>
-
 <!-- CTA Section -->
 <section class="cta-section py-6">
     <div class="container">
@@ -895,14 +904,7 @@
 
 @push('styles')
 <style>
-    /* Color Variables */
-    :root {
-        --primary-color: #529c9b;
-        --primary-dark: #417d7c;
-        --primary-light: #72b9b8;
-        --primary-bg: rgba(82, 156, 155, 0.1);
-    }
-    
+   
     /* Hero Section */
     .hero-section {
         position: relative;

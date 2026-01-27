@@ -23,8 +23,20 @@
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900" rel="stylesheet">
+    <!-- Font Awesome CDN -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     
     @stack('styles')
+    <style>
+         /* Color Variables */
+    :root {
+        --primary-color: #228B22;
+        --primary-dark: #228B22;
+        --primary-light: #228B22;
+        --primary-bg: rgba(82, 156, 155, 0.1);
+    }
+    
+    </style>
 </head>
 
 <body class="shop-page layout-medlab">
@@ -94,9 +106,7 @@
                                     <li class="nav-item {{ request()->routeIs('training') ? 'active' : '' }}">
                                         <a class="nav-link" href="{{ route('training') }}">Training & Advocacy</a>
                                     </li>
-                                    <li class="nav-item {{ request()->routeIs('media') ? 'active' : '' }}">
-                                        <a class="nav-link" href="{{ route('media') }}">Media</a>
-                                    </li>
+                                   
                                     <li class="nav-item {{ request()->routeIs('contact') ? 'active' : '' }}">
                                         <a class="nav-link" href="{{ route('contact') }}">Contact Us</a>
                                     </li>

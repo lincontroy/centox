@@ -5,7 +5,7 @@
 @section('content')
 
 <!-- Page Header -->
-<section class="page-header" style="background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('https://via.placeholder.com/1920x400/00695C/FFFFFF?text=TRAINING+PROGRAMS'); background-size: cover; background-position: center; padding: 100px 0;">
+<section class="page-header" style="background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('h15.png'); background-size: cover; background-position: center; padding: 100px 0;">
     <div class="container">
         <div class="row">
             <div class="col-lg-12 text-center text-white">
@@ -30,7 +30,7 @@
                 </div>
             </div>
             <div class="col-lg-6">
-                <img src="https://via.placeholder.com/600x400/00796B/FFFFFF?text=TRAINING+SESSION" alt="Training Session" class="img-fluid rounded">
+                <img src="h15.png" alt="Training Session" class="img-fluid rounded">
             </div>
         </div>
     </div>
@@ -179,7 +179,7 @@
         <div class="timeline">
             <div class="timeline-item">
                 <div class="timeline-icon">
-                    <i class="icon icon-assessment"></i>
+                    <i class="fas fa-clipboard-check text-primary fs-3"></i>
                 </div>
                 <div class="timeline-content">
                     <h4>Needs Assessment</h4>
@@ -189,7 +189,7 @@
             
             <div class="timeline-item">
                 <div class="timeline-icon">
-                    <i class="icon icon-curriculum"></i>
+                    <i class="fas fa-book-open text-primary fs-3"></i>
                 </div>
                 <div class="timeline-content">
                     <h4>Curriculum Development</h4>
@@ -199,7 +199,7 @@
             
             <div class="timeline-item">
                 <div class="timeline-icon">
-                    <i class="icon icon-training"></i>
+                    <i class="fas fa-chalkboard-teacher text-primary fs-3"></i>
                 </div>
                 <div class="timeline-content">
                     <h4>Interactive Training</h4>
@@ -209,7 +209,7 @@
             
             <div class="timeline-item">
                 <div class="timeline-icon">
-                    <i class="icon icon-evaluation"></i>
+                    <i class="fas fa-award text-primary fs-3"></i>
                 </div>
                 <div class="timeline-content">
                     <h4>Evaluation & Certification</h4>
@@ -219,7 +219,7 @@
             
             <div class="timeline-item">
                 <div class="timeline-icon">
-                    <i class="icon icon-followup"></i>
+                    <i class="fas fa-headset text-primary fs-3"></i>
                 </div>
                 <div class="timeline-content">
                     <h4>Follow-up Support</h4>
@@ -311,15 +311,6 @@
     </div>
 </section>
 
-<!-- CTA Section -->
-<section class="section bg-gradient text-white" style="background: linear-gradient(135deg, #00695C 0%, #004D40 100%);">
-    <div class="container text-center">
-        <h2 class="h1 mb-4">Ready to Enhance Your Safety Skills?</h2>
-        <p class="lead mb-4">Contact us for customized training solutions for your organization</p>
-        <a href="{{ route('contact') }}" class="btn btn-light btn-lg mr-3">Request Training Proposal</a>
-        <a href="tel:+1-800-TOX-HELP" class="btn btn-outline-light btn-lg">Call for Information</a>
-    </div>
-</section>
 
 @endsection
 

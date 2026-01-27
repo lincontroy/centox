@@ -5,7 +5,7 @@
 @section('content')
 
 <!-- Page Header -->
-<section class="page-header" style="background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('https://via.placeholder.com/1920x400/00695C/FFFFFF?text=OUR+PRODUCTS'); background-size: cover; background-position: center; padding: 100px 0;">
+<section class="page-header" style="background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('h13.png'); background-size: cover; background-position: center; padding: 100px 0;">
     <div class="container">
         <div class="row">
             <div class="col-lg-12 text-center text-white">
@@ -60,7 +60,7 @@
                         <p>We provide a comprehensive range of non-pharmaceutical medical products, diagnostic kits, and testing equipment designed for accuracy, reliability, and ease of use.</p>
                     </div>
                     <div class="col-lg-6">
-                        <img src="https://via.placeholder.com/600x400/00695C/FFFFFF?text=MEDICAL+PRODUCTS" alt="Medical Products" class="img-fluid rounded">
+                        <img src="h13.png" alt="Medical Products" class="img-fluid rounded">
                     </div>
                 </div>
                 
@@ -162,7 +162,7 @@
                         <p>We supply a wide range of laboratory chemicals, industrial solvents, and specialized reagents with guaranteed purity and quality assurance.</p>
                     </div>
                     <div class="col-lg-6">
-                        <img src="https://via.placeholder.com/600x400/004D40/FFFFFF?text=CHEMICALS+REAGENTS" alt="Chemicals" class="img-fluid rounded">
+                        <img src="h16.png" alt="Chemicals" class="img-fluid rounded">
                     </div>
                 </div>
                 
@@ -266,7 +266,7 @@
                         <p>We supply essential antidotes and emergency treatments for hospitals, clinics, poison control centers, and industrial facilities.</p>
                     </div>
                     <div class="col-lg-6">
-                        <img src="https://via.placeholder.com/600x400/00796B/FFFFFF?text=ANTIDOTES+TREATMENTS" alt="Antidotes" class="img-fluid rounded">
+                        <img src="h17.png" alt="Antidotes" class="img-fluid rounded">
                     </div>
                 </div>
                 
@@ -374,30 +374,37 @@
                         <p>We offer a comprehensive range of PPE designed to protect against chemical, biological, physical, and environmental hazards.</p>
                     </div>
                     <div class="col-lg-6">
-                        <img src="https://via.placeholder.com/600x400/004D40/FFFFFF?text=PPE+EQUIPMENT" alt="PPE Equipment" class="img-fluid rounded">
+                        <img src="h18.png" alt="PPE Equipment" class="img-fluid rounded">
                     </div>
                 </div>
-                
                 <div class="row">
                     <!-- Head Protection -->
                     <div class="col-md-6 col-lg-4 mb-4">
-                        <div class="ppe-category-card p-4 h-100 text-center">
+                        <div class="ppe-category-card p-4 h-100 text-center border rounded-3 shadow-sm hover-shadow">
                             <div class="ppe-icon mb-3">
-                                <i class="icon icon-helmet" style="font-size: 3rem; color: #00695C;"></i>
+                                <div class="icon-wrapper bg-teal bg-opacity-10 rounded-circle p-3 d-inline-block">
+                                    <i class="fas fa-hard-hat text-teal fs-2"></i>
+                                </div>
                             </div>
-                            <h4 class="mb-3">Head Protection</h4>
-                            <div class="ppe-list text-left">
+                            <h4 class="mb-3 fw-bold">Head Protection</h4>
+                            <div class="ppe-list text-start">
                                 <div class="ppe-item mb-2">
-                                    <h6 class="font-weight-bold">Safety Helmets</h6>
-                                    <small>Industrial hard hats with chin straps</small>
+                                    <h6 class="fw-bold d-flex align-items-center">
+                                        <i class="fas fa-check-circle text-success me-2 fs-6"></i> Safety Helmets
+                                    </h6>
+                                    <small class="text-muted">Industrial hard hats with chin straps</small>
                                 </div>
                                 <div class="ppe-item mb-2">
-                                    <h6 class="font-weight-bold">Bump Caps</h6>
-                                    <small>Lightweight head protection for low-risk areas</small>
+                                    <h6 class="fw-bold d-flex align-items-center">
+                                        <i class="fas fa-check-circle text-success me-2 fs-6"></i> Bump Caps
+                                    </h6>
+                                    <small class="text-muted">Lightweight head protection for low-risk areas</small>
                                 </div>
                                 <div class="ppe-item">
-                                    <h6 class="font-weight-bold">Hair Nets & Caps</h6>
-                                    <small>Disposable caps for cleanroom environments</small>
+                                    <h6 class="fw-bold d-flex align-items-center">
+                                        <i class="fas fa-check-circle text-success me-2 fs-6"></i> Hair Nets & Caps
+                                    </h6>
+                                    <small class="text-muted">Disposable caps for cleanroom environments</small>
                                 </div>
                             </div>
                         </div>
@@ -405,27 +412,37 @@
                     
                     <!-- Eye & Face Protection -->
                     <div class="col-md-6 col-lg-4 mb-4">
-                        <div class="ppe-category-card p-4 h-100 text-center">
+                        <div class="ppe-category-card p-4 h-100 text-center border rounded-3 shadow-sm hover-shadow">
                             <div class="ppe-icon mb-3">
-                                <i class="icon icon-safety-glasses" style="font-size: 3rem; color: #00695C;"></i>
+                                <div class="icon-wrapper bg-teal bg-opacity-10 rounded-circle p-3 d-inline-block">
+                                    <i class="fas fa-eye text-teal fs-2"></i>
+                                </div>
                             </div>
-                            <h4 class="mb-3">Eye & Face Protection</h4>
-                            <div class="ppe-list text-left">
+                            <h4 class="mb-3 fw-bold">Eye & Face Protection</h4>
+                            <div class="ppe-list text-start">
                                 <div class="ppe-item mb-2">
-                                    <h6 class="font-weight-bold">Safety Glasses</h6>
-                                    <small>Anti-fog, UV protection, side shields</small>
+                                    <h6 class="fw-bold d-flex align-items-center">
+                                        <i class="fas fa-check-circle text-success me-2 fs-6"></i> Safety Glasses
+                                    </h6>
+                                    <small class="text-muted">Anti-fog, UV protection, side shields</small>
                                 </div>
                                 <div class="ppe-item mb-2">
-                                    <h6 class="font-weight-bold">Chemical Goggles</h6>
-                                    <small>Splash-proof, indirect vented</small>
+                                    <h6 class="fw-bold d-flex align-items-center">
+                                        <i class="fas fa-check-circle text-success me-2 fs-6"></i> Chemical Goggles
+                                    </h6>
+                                    <small class="text-muted">Splash-proof, indirect vented</small>
                                 </div>
                                 <div class="ppe-item mb-2">
-                                    <h6 class="font-weight-bold">Face Shields</h6>
-                                    <small>Full-face protection for welding, chemicals</small>
+                                    <h6 class="fw-bold d-flex align-items-center">
+                                        <i class="fas fa-check-circle text-success me-2 fs-6"></i> Face Shields
+                                    </h6>
+                                    <small class="text-muted">Full-face protection for welding, chemicals</small>
                                 </div>
                                 <div class="ppe-item">
-                                    <h6 class="font-weight-bold">Welding Masks</h6>
-                                    <small>Auto-darkening, fixed shade</small>
+                                    <h6 class="fw-bold d-flex align-items-center">
+                                        <i class="fas fa-check-circle text-success me-2 fs-6"></i> Welding Masks
+                                    </h6>
+                                    <small class="text-muted">Auto-darkening, fixed shade</small>
                                 </div>
                             </div>
                         </div>
@@ -433,23 +450,31 @@
                     
                     <!-- Hearing Protection -->
                     <div class="col-md-6 col-lg-4 mb-4">
-                        <div class="ppe-category-card p-4 h-100 text-center">
+                        <div class="ppe-category-card p-4 h-100 text-center border rounded-3 shadow-sm hover-shadow">
                             <div class="ppe-icon mb-3">
-                                <i class="icon icon-ear-protection" style="font-size: 3rem; color: #00695C;"></i>
+                                <div class="icon-wrapper bg-teal bg-opacity-10 rounded-circle p-3 d-inline-block">
+                                    <i class="fas fa-assistive-listening-systems text-teal fs-2"></i>
+                                </div>
                             </div>
-                            <h4 class="mb-3">Hearing Protection</h4>
-                            <div class="ppe-list text-left">
+                            <h4 class="mb-3 fw-bold">Hearing Protection</h4>
+                            <div class="ppe-list text-start">
                                 <div class="ppe-item mb-2">
-                                    <h6 class="font-weight-bold">Disposable Earplugs</h6>
-                                    <small>Foam, silicone, corded options</small>
+                                    <h6 class="fw-bold d-flex align-items-center">
+                                        <i class="fas fa-check-circle text-success me-2 fs-6"></i> Disposable Earplugs
+                                    </h6>
+                                    <small class="text-muted">Foam, silicone, corded options</small>
                                 </div>
                                 <div class="ppe-item mb-2">
-                                    <h6 class="font-weight-bold">Reusable Earplugs</h6>
-                                    <small>Flanged, custom-molded</small>
+                                    <h6 class="fw-bold d-flex align-items-center">
+                                        <i class="fas fa-check-circle text-success me-2 fs-6"></i> Reusable Earplugs
+                                    </h6>
+                                    <small class="text-muted">Flanged, custom-molded</small>
                                 </div>
                                 <div class="ppe-item">
-                                    <h6 class="font-weight-bold">Earmuffs</h6>
-                                    <small>Electronic, communication-enabled</small>
+                                    <h6 class="fw-bold d-flex align-items-center">
+                                        <i class="fas fa-check-circle text-success me-2 fs-6"></i> Earmuffs
+                                    </h6>
+                                    <small class="text-muted">Electronic, communication-enabled</small>
                                 </div>
                             </div>
                         </div>
@@ -457,27 +482,37 @@
                     
                     <!-- Respiratory Protection -->
                     <div class="col-md-6 col-lg-4 mb-4">
-                        <div class="ppe-category-card p-4 h-100 text-center">
+                        <div class="ppe-category-card p-4 h-100 text-center border rounded-3 shadow-sm hover-shadow">
                             <div class="ppe-icon mb-3">
-                                <i class="icon icon-respirator" style="font-size: 3rem; color: #00695C;"></i>
+                                <div class="icon-wrapper bg-teal bg-opacity-10 rounded-circle p-3 d-inline-block">
+                                    <i class="fas fa-lungs text-teal fs-2"></i>
+                                </div>
                             </div>
-                            <h4 class="mb-3">Respiratory Protection</h4>
-                            <div class="ppe-list text-left">
+                            <h4 class="mb-3 fw-bold">Respiratory Protection</h4>
+                            <div class="ppe-list text-start">
                                 <div class="ppe-item mb-2">
-                                    <h6 class="font-weight-bold">Disposable Masks</h6>
-                                    <small>N95, N99, N100 respirators</small>
+                                    <h6 class="fw-bold d-flex align-items-center">
+                                        <i class="fas fa-check-circle text-success me-2 fs-6"></i> Disposable Masks
+                                    </h6>
+                                    <small class="text-muted">N95, N99, N100 respirators</small>
                                 </div>
                                 <div class="ppe-item mb-2">
-                                    <h6 class="font-weight-bold">Half/Full Face Respirators</h6>
-                                    <small>With cartridges for specific hazards</small>
+                                    <h6 class="fw-bold d-flex align-items-center">
+                                        <i class="fas fa-check-circle text-success me-2 fs-6"></i> Half/Full Face Respirators
+                                    </h6>
+                                    <small class="text-muted">With cartridges for specific hazards</small>
                                 </div>
                                 <div class="ppe-item mb-2">
-                                    <h6 class="font-weight-bold">SCBA Systems</h6>
-                                    <small>Self-contained breathing apparatus</small>
+                                    <h6 class="fw-bold d-flex align-items-center">
+                                        <i class="fas fa-check-circle text-success me-2 fs-6"></i> SCBA Systems
+                                    </h6>
+                                    <small class="text-muted">Self-contained breathing apparatus</small>
                                 </div>
                                 <div class="ppe-item">
-                                    <h6 class="font-weight-bold">Gas Masks</h6>
-                                    <small>Military grade, industrial grade</small>
+                                    <h6 class="fw-bold d-flex align-items-center">
+                                        <i class="fas fa-check-circle text-success me-2 fs-6"></i> Gas Masks
+                                    </h6>
+                                    <small class="text-muted">Military grade, industrial grade</small>
                                 </div>
                             </div>
                         </div>
@@ -485,27 +520,37 @@
                     
                     <!-- Hand Protection -->
                     <div class="col-md-6 col-lg-4 mb-4">
-                        <div class="ppe-category-card p-4 h-100 text-center">
+                        <div class="ppe-category-card p-4 h-100 text-center border rounded-3 shadow-sm hover-shadow">
                             <div class="ppe-icon mb-3">
-                                <i class="icon icon-gloves" style="font-size: 3rem; color: #00695C;"></i>
+                                <div class="icon-wrapper bg-teal bg-opacity-10 rounded-circle p-3 d-inline-block">
+                                    <i class="fas fa-hand-sparkles text-teal fs-2"></i>
+                                </div>
                             </div>
-                            <h4 class="mb-3">Hand Protection</h4>
-                            <div class="ppe-list text-left">
+                            <h4 class="mb-3 fw-bold">Hand Protection</h4>
+                            <div class="ppe-list text-start">
                                 <div class="ppe-item mb-2">
-                                    <h6 class="font-weight-bold">Chemical Resistant Gloves</h6>
-                                    <small>Nitrile, latex, neoprene, butyl rubber</small>
+                                    <h6 class="fw-bold d-flex align-items-center">
+                                        <i class="fas fa-check-circle text-success me-2 fs-6"></i> Chemical Resistant Gloves
+                                    </h6>
+                                    <small class="text-muted">Nitrile, latex, neoprene, butyl rubber</small>
                                 </div>
                                 <div class="ppe-item mb-2">
-                                    <h6 class="font-weight-bold">Cut Resistant Gloves</h6>
-                                    <small>Kevlar, stainless steel mesh</small>
+                                    <h6 class="fw-bold d-flex align-items-center">
+                                        <i class="fas fa-check-circle text-success me-2 fs-6"></i> Cut Resistant Gloves
+                                    </h6>
+                                    <small class="text-muted">Kevlar, stainless steel mesh</small>
                                 </div>
                                 <div class="ppe-item mb-2">
-                                    <h6 class="font-weight-bold">Heat Resistant Gloves</h6>
-                                    <small>Welding gloves, oven mitts</small>
+                                    <h6 class="fw-bold d-flex align-items-center">
+                                        <i class="fas fa-check-circle text-success me-2 fs-6"></i> Heat Resistant Gloves
+                                    </h6>
+                                    <small class="text-muted">Welding gloves, oven mitts</small>
                                 </div>
                                 <div class="ppe-item">
-                                    <h6 class="font-weight-bold">Disposable Gloves</h6>
-                                    <small>Powder-free, sterile, non-sterile</small>
+                                    <h6 class="fw-bold d-flex align-items-center">
+                                        <i class="fas fa-check-circle text-success me-2 fs-6"></i> Disposable Gloves
+                                    </h6>
+                                    <small class="text-muted">Powder-free, sterile, non-sterile</small>
                                 </div>
                             </div>
                         </div>
@@ -513,27 +558,37 @@
                     
                     <!-- Body Protection -->
                     <div class="col-md-6 col-lg-4 mb-4">
-                        <div class="ppe-category-card p-4 h-100 text-center">
+                        <div class="ppe-category-card p-4 h-100 text-center border rounded-3 shadow-sm hover-shadow">
                             <div class="ppe-icon mb-3">
-                                <i class="icon icon-protective-suit" style="font-size: 3rem; color: #00695C;"></i>
+                                <div class="icon-wrapper bg-teal bg-opacity-10 rounded-circle p-3 d-inline-block">
+                                    <i class="fas fa-tshirt text-teal fs-2"></i>
+                                </div>
                             </div>
-                            <h4 class="mb-3">Body Protection</h4>
-                            <div class="ppe-list text-left">
+                            <h4 class="mb-3 fw-bold">Body Protection</h4>
+                            <div class="ppe-list text-start">
                                 <div class="ppe-item mb-2">
-                                    <h6 class="font-weight-bold">Chemical Suits</h6>
-                                    <small>Level A, B, C protection</small>
+                                    <h6 class="fw-bold d-flex align-items-center">
+                                        <i class="fas fa-check-circle text-success me-2 fs-6"></i> Chemical Suits
+                                    </h6>
+                                    <small class="text-muted">Level A, B, C protection</small>
                                 </div>
                                 <div class="ppe-item mb-2">
-                                    <h6 class="font-weight-bold">Flame Resistant Clothing</h6>
-                                    <small>Coveralls, jackets, pants</small>
+                                    <h6 class="fw-bold d-flex align-items-center">
+                                        <i class="fas fa-check-circle text-success me-2 fs-6"></i> Flame Resistant Clothing
+                                    </h6>
+                                    <small class="text-muted">Coveralls, jackets, pants</small>
                                 </div>
                                 <div class="ppe-item mb-2">
-                                    <h6 class="font-weight-bold">High-Visibility Vests</h6>
-                                    <small>Class 2, Class 3 reflective vests</small>
+                                    <h6 class="fw-bold d-flex align-items-center">
+                                        <i class="fas fa-check-circle text-success me-2 fs-6"></i> High-Visibility Vests
+                                    </h6>
+                                    <small class="text-muted">Class 2, Class 3 reflective vests</small>
                                 </div>
                                 <div class="ppe-item">
-                                    <h6 class="font-weight-bold">Lab Coats & Aprons</h6>
-                                    <small>Flame-resistant, chemical-resistant</small>
+                                    <h6 class="fw-bold d-flex align-items-center">
+                                        <i class="fas fa-check-circle text-success me-2 fs-6"></i> Lab Coats & Aprons
+                                    </h6>
+                                    <small class="text-muted">Flame-resistant, chemical-resistant</small>
                                 </div>
                             </div>
                         </div>
@@ -541,31 +596,41 @@
                     
                     <!-- Foot Protection -->
                     <div class="col-md-6 col-lg-6 mb-4">
-                        <div class="ppe-category-card p-4 h-100 text-center">
+                        <div class="ppe-category-card p-4 h-100 text-center border rounded-3 shadow-sm hover-shadow">
                             <div class="ppe-icon mb-3">
-                                <i class="icon icon-safety-boots" style="font-size: 3rem; color: #00695C;"></i>
+                                <div class="icon-wrapper bg-teal bg-opacity-10 rounded-circle p-3 d-inline-block">
+                                    <i class="fas fa-hiking text-teal fs-2"></i>
+                                </div>
                             </div>
-                            <h4 class="mb-3">Foot Protection</h4>
-                            <div class="ppe-list text-left">
+                            <h4 class="mb-3 fw-bold">Foot Protection</h4>
+                            <div class="ppe-list text-start">
                                 <div class="row">
                                     <div class="col-md-6">
                                         <div class="ppe-item mb-2">
-                                            <h6 class="font-weight-bold">Steel Toe Boots</h6>
-                                            <small>Waterproof, electrical hazard rated</small>
+                                            <h6 class="fw-bold d-flex align-items-center">
+                                                <i class="fas fa-check-circle text-success me-2 fs-6"></i> Steel Toe Boots
+                                            </h6>
+                                            <small class="text-muted">Waterproof, electrical hazard rated</small>
                                         </div>
                                         <div class="ppe-item">
-                                            <h6 class="font-weight-bold">Chemical Resistant Boots</h6>
-                                            <small>Neoprene, PVC, rubber boots</small>
+                                            <h6 class="fw-bold d-flex align-items-center">
+                                                <i class="fas fa-check-circle text-success me-2 fs-6"></i> Chemical Resistant Boots
+                                            </h6>
+                                            <small class="text-muted">Neoprene, PVC, rubber boots</small>
                                         </div>
                                     </div>
                                     <div class="col-md-6">
                                         <div class="ppe-item mb-2">
-                                            <h6 class="font-weight-bold">Anti-static Shoes</h6>
-                                            <small>For electronics and cleanrooms</small>
+                                            <h6 class="fw-bold d-flex align-items-center">
+                                                <i class="fas fa-check-circle text-success me-2 fs-6"></i> Anti-static Shoes
+                                            </h6>
+                                            <small class="text-muted">For electronics and cleanrooms</small>
                                         </div>
                                         <div class="ppe-item">
-                                            <h6 class="font-weight-bold">Disposable Shoe Covers</h6>
-                                            <small>For cleanroom and sterile areas</small>
+                                            <h6 class="fw-bold d-flex align-items-center">
+                                                <i class="fas fa-check-circle text-success me-2 fs-6"></i> Disposable Shoe Covers
+                                            </h6>
+                                            <small class="text-muted">For cleanroom and sterile areas</small>
                                         </div>
                                     </div>
                                 </div>
@@ -575,31 +640,41 @@
                     
                     <!-- Fall Protection -->
                     <div class="col-md-6 col-lg-6 mb-4">
-                        <div class="ppe-category-card p-4 h-100 text-center">
+                        <div class="ppe-category-card p-4 h-100 text-center border rounded-3 shadow-sm hover-shadow">
                             <div class="ppe-icon mb-3">
-                                <i class="icon icon-harness" style="font-size: 3rem; color: #00695C;"></i>
+                                <div class="icon-wrapper bg-teal bg-opacity-10 rounded-circle p-3 d-inline-block">
+                                    <i class="fas fa-safety-belt text-teal fs-2"></i>
+                                </div>
                             </div>
-                            <h4 class="mb-3">Fall Protection</h4>
-                            <div class="ppe-list text-left">
+                            <h4 class="mb-3 fw-bold">Fall Protection</h4>
+                            <div class="ppe-list text-start">
                                 <div class="row">
                                     <div class="col-md-6">
                                         <div class="ppe-item mb-2">
-                                            <h6 class="font-weight-bold">Safety Harnesses</h6>
-                                            <small>Full body, chest harnesses</small>
+                                            <h6 class="fw-bold d-flex align-items-center">
+                                                <i class="fas fa-check-circle text-success me-2 fs-6"></i> Safety Harnesses
+                                            </h6>
+                                            <small class="text-muted">Full body, chest harnesses</small>
                                         </div>
                                         <div class="ppe-item">
-                                            <h6 class="font-weight-bold">Lanyards</h6>
-                                            <small>Shock-absorbing, retractable</small>
+                                            <h6 class="fw-bold d-flex align-items-center">
+                                                <i class="fas fa-check-circle text-success me-2 fs-6"></i> Lanyards
+                                            </h6>
+                                            <small class="text-muted">Shock-absorbing, retractable</small>
                                         </div>
                                     </div>
                                     <div class="col-md-6">
                                         <div class="ppe-item mb-2">
-                                            <h6 class="font-weight-bold">Anchor Points</h6>
-                                            <small>Portable, permanent anchors</small>
+                                            <h6 class="fw-bold d-flex align-items-center">
+                                                <i class="fas fa-check-circle text-success me-2 fs-6"></i> Anchor Points
+                                            </h6>
+                                            <small class="text-muted">Portable, permanent anchors</small>
                                         </div>
                                         <div class="ppe-item">
-                                            <h6 class="font-weight-bold">Rescue Equipment</h6>
-                                            <small>Tripods, winches, descent devices</small>
+                                            <h6 class="fw-bold d-flex align-items-center">
+                                                <i class="fas fa-check-circle text-success me-2 fs-6"></i> Rescue Equipment
+                                            </h6>
+                                            <small class="text-muted">Tripods, winches, descent devices</small>
                                         </div>
                                     </div>
                                 </div>
@@ -608,6 +683,24 @@
                     </div>
                 </div>
                 
+                <style>
+                .hover-shadow {
+                    transition: transform 0.3s ease, box-shadow 0.3s ease;
+                }
+                
+                .hover-shadow:hover {
+                    transform: translateY(-5px);
+                    box-shadow: 0 10px 30px rgba(0, 105, 92, 0.15) !important;
+                }
+                
+                .icon-wrapper {
+                    transition: transform 0.3s ease;
+                }
+                
+                .hover-shadow:hover .icon-wrapper {
+                    transform: scale(1.1) rotate(5deg);
+                }
+                </style>
                 <!-- PPE Selection Guide -->
                 <div class="row mt-5">
                     <div class="col-12">
@@ -657,16 +750,7 @@
             </div>
         </div>
         
-        <!-- CTA Section -->
-        <div class="text-center mt-5 pt-5">
-            <h3 class="h2 mb-4">Request Product Information</h3>
-            <p class="lead mb-4">Get detailed specifications, pricing, and safety data sheets</p>
-            <div class="d-flex flex-wrap justify-content-center gap-3">
-                <a href="{{ route('contact') }}" class="btn btn-primary btn-lg">Contact Sales</a>
-                <button class="btn btn-outline-primary btn-lg" data-toggle="modal" data-target="#productCatalogModal">Download Catalog</button>
-                <button class="btn btn-success btn-lg" data-toggle="modal" data-target="#requestQuoteModal">Request Quote</button>
-            </div>
-        </div>
+
     </div>
 </section>
 

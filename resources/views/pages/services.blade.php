@@ -5,7 +5,7 @@
 @section('content')
 
 <!-- Page Header -->
-<section class="page-header" style="background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('https://via.placeholder.com/1920x400/00695C/FFFFFF?text=OUR+SERVICES'); background-size: cover; background-position: center; padding: 100px 0;">
+<section class="page-header" style="background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('h12.png'); background-size: cover; background-position: center; padding: 100px 0;">
     <div class="container">
         <div class="row">
             <div class="col-lg-12 text-center text-white">
@@ -66,7 +66,7 @@
                         <p>Our consultancy services provide comprehensive support for industries dealing with chemicals and hazardous materials, ensuring compliance with national and international regulations.</p>
                     </div>
                     <div class="col-lg-6">
-                        <img src="https://via.placeholder.com/600x400/00695C/FFFFFF?text=CONSULTANCY" alt="Consultancy Services" class="img-fluid rounded">
+                        <img src="h10.png" alt="Consultancy Services" class="img-fluid rounded">
                     </div>
                 </div>
                 
@@ -106,7 +106,7 @@
                         <p>Our accredited laboratory provides comprehensive analytical services using advanced instrumentation and validated methods for accurate and reliable results.</p>
                     </div>
                     <div class="col-lg-6">
-                        <img src="https://via.placeholder.com/600x400/004D40/FFFFFF?text=ANALYTICAL+LAB" alt="Analytical Services" class="img-fluid rounded">
+                        <img src="h11.png" alt="Analytical Services" class="img-fluid rounded">
                     </div>
                 </div>
                 
@@ -152,7 +152,7 @@
                         <p>We offer comprehensive training programs designed to enhance chemical safety awareness and build technical capacity across various sectors.</p>
                     </div>
                     <div class="col-lg-6">
-                        <img src="https://via.placeholder.com/600x400/00796B/FFFFFF?text=TRAINING" alt="Training Programs" class="img-fluid rounded">
+                        <img src="h12.png" alt="Training Programs" class="img-fluid rounded">
                     </div>
                 </div>
                 
@@ -216,7 +216,7 @@
                         <p>We leverage media platforms and advocacy campaigns to promote chemical safety awareness and influence policy development.</p>
                     </div>
                     <div class="col-lg-6">
-                        <img src="https://via.placeholder.com/600x400/00695C/FFFFFF?text=MEDIA+ADVOCACY" alt="Media Advocacy" class="img-fluid rounded">
+                        <img src="h7.jpg" alt="Media Advocacy" class="img-fluid rounded">
                     </div>
                 </div>
                 
@@ -258,7 +258,7 @@
                         <p>Comprehensive toxic waste management services ensuring environmental protection and regulatory compliance.</p>
                     </div>
                     <div class="col-lg-6">
-                        <img src="https://via.placeholder.com/600x400/004D40/FFFFFF?text=WASTE+MANAGEMENT" alt="Waste Management" class="img-fluid rounded">
+                        <img src="h14.png" alt="Waste Management" class="img-fluid rounded">
                     </div>
                 </div>
                 
@@ -290,13 +290,7 @@
             </div>
         </div>
         
-        <!-- CTA Section -->
-        <div class="text-center mt-5 pt-5">
-            <h3 class="h2 mb-4">Need Our Services?</h3>
-            <p class="lead mb-4">Contact us for a consultation or request a quote</p>
-            <a href="{{ route('contact') }}" class="btn btn-primary btn-lg mr-3">Contact Us</a>
-            <button class="btn btn-outline-primary btn-lg" data-toggle="modal" data-target="#modalContactForm">Request Quote</button>
-        </div>
+       
     </div>
 </section>
 
